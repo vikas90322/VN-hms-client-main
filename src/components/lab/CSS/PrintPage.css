@@ -1,0 +1,44 @@
+.page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .text-2{
+    margin-left: 280px;
+  }
+  .header img {
+    max-width: 100px;
+  }
+  
+  .patient-info {
+    margin-top: 20px;
+  }
+  
+  .prescription {
+    margin-top: 20px;
+  }
+  
+  .advice {
+    margin-top: 20px;
+  }
+  
+  .advice p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .advice p:nth-last-child(2) {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .doctor-info {
+    text-align: left;
+    margin-left: 600px;
+  }

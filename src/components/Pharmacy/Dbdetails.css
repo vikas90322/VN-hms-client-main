@@ -1,0 +1,82 @@
+/* Your existing CSS... */
+
+.phhsk14{
+  padding-top: 0%;
+}
+
+.phtbsk14{
+  /* margin-left: 8%; */
+  width: 100%;
+  border-style: none;
+}
+
+.pharma-container123{
+  width: 93%;
+  margin-left: 7%;
+}
+
+.pharma-container123db {
+  text-align: center; /* Center-align the entire table */
+  margin-top: 20px;
+}
+
+.heading6789db {
+  text-align: left; /* Left-align the heading */
+  margin: right 25px;
+}
+
+.fixed-header {
+  position: sticky; /* Make the header stick to the top */
+  top: 0;
+  background-color: #007bff; /* Background color for the fixed header */
+  color: white; /* Text color for the fixed header */
+  font-weight: bold; /* Font weight for the fixed header */
+}
+.table-containerdb{
+  max-height: 500px;
+  /* overflow-y: auto; */
+}
+
+.pharmacy-table-header {
+  padding: 10px;
+  background-color: #007bff; /* Background color for table header */
+  color: white; /* Text color for table header */
+  font-weight: bold; /* Font weight for table header */
+  text-align: center; /* Center-align the table cell contents */
+}
+
+/* Additional styles for table rows, if needed */
+.pharmacy-details-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.pharmacy-details-table tbody tr:hover {
+  background-color: #cce5ff; /* Hovered row background color */
+}
+
+.scrollable-body {
+  max-height: 500px; /* Set a max height for the scrollable body */
+  /* overflow-y: auto; Add vertical scroll to the body */
+}
+
+.pharmacy-details-table {
+  table-layout: fixed; /* Prevent the table from expanding */
+  width: 100%; /* Ensure the table takes the full width of the container */
+}
+.data-table-OP {
+  max-height: 500px;
+  /* overflow-y: auto; */
+}
+
+
+@media screen and (max-width: 425px) {
+  .pharmacy-details-table{
+    font-size: 0.9rem;
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x:scroll;
+    height:auto;
+    display:block;
+    border: none;
+  }
+}

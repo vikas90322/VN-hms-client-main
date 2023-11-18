@@ -1,0 +1,76 @@
+.container14 {
+  max-width: 54%;
+  margin: 20px auto;
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-top: 6%;
+
+
+
+    
+  }
+  .f14{
+    text-align: center;
+  }
+  
+  .container14 form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .container14 form input {
+   
+    width: 90%;
+
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+  }
+  
+  .date-range14 {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .button14 {
+    background-color: rgba(62, 110, 168, 1);;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button14:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .close-button1ae4{
+   margin-left: 100%;
+   margin-top: -12%;
+    font-size: 6vh; 
+  }
+  
+  /* Optional: Center the container vertically */
+  /* html,
+  body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  } */
+  

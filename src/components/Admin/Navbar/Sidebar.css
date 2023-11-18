@@ -1,0 +1,65 @@
+/* Sidebar.css */
+.sidebar-docktorsk14s123-n {
+    width: 7%;
+    height: 100vh;
+    /* margin-top: 70px; */
+    padding-top: 0px;
+    background-color: #3d50ae;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    margin-top: 70px;
+  }
+  
+  
+  .sidebar-items-45{
+    margin-top: 10px;
+  }
+  
+  .sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 5px !important;
+    padding: 7px !important;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #f7f5f5;
+    color: black;
+    background-size: cover;
+  }
+  .sidebar-icon{
+    font-size: 27px;
+  }
+  @media only screen and (max-width: 427px) {
+    .sidebar-docktorsk14s123-n{
+      width: 20vw;
+      height: 100vh;
+      /* margin-top: 70px; */
+      padding-top: 0px;
+      background-color: #3d50ae;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      z-index: 9998;
+      top: 0;
+      margin-top: 70px;
+
+    }
+    .sidebar-items-45{
+    width: auto;
+    float: left;
+      height: 100vh;
+      margin: 1px !important;
+      padding: 3px !important;
+    }
+   }

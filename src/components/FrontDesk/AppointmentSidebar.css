@@ -1,0 +1,34 @@
+.sidebar_6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 10vw;
+    background-color:#3E6EAB;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5px; /* Add padding-top instead of margin-top for spacing */
+  }
+  
+  .sidebar_6 a {
+    text-decoration: none;
+    color: white; /* Set the default text color for links */
+  }
+  
+  .sidebar-item-full_6 {
+    margin-top: 5.5vh;
+  }
+  
+  .sidebar-item_6 {
+    cursor: pointer;
+    padding-left: 10px;
+    margin-bottom: 10px; /* Add margin-bottom for spacing between items */
+  }
+  
+  .sidebar-item_6.active a {
+    background-color: white;
+    color: navy;
+  }
+  

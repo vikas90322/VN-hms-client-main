@@ -1,0 +1,325 @@
+@import url('https://fonts.cdnfonts.com/css/monopoly');
+*{
+  font-family: 'Monopoly', sans-serif;
+                                                
+}
+
+.navbar-doctor {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C5D3E5;
+  padding: 5px;
+  margin-bottom: 35px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.doc-link-nav {
+  text-decoration: none;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logow {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-left: 14px;
+}
+
+.search-container321 {
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+}
+.weyh{
+  width: 90px;
+  height: 35px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.searching321Button {
+ 
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 48px;
+  height: 40px;
+}
+
+
+.search-bar-doc{
+  width:"350px";
+                  height:"30px";
+                
+                  margin-Right: "107px";
+                  
+}
+
+.nav-itemb,.nav-items {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.icon-docks {
+  padding-left: 5px;
+  margin-right: 3px;
+  padding-top: 3px;
+  font-size: 17px;
+}
+
+.icon-add {
+  margin-right: 10px;
+  padding-top: 3px;
+  font-size: 28px;
+}
+
+.icon-profile {
+  margin-right: 10px;
+  padding-top: 3px;
+  font-size: 35px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  display: none;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.right .add-patient-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.add-patient-icon {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 26px;
+/* <<<<<<< HEAD */
+  color: #f4f5f7;
+/* ======= */
+  color: white;
+/* >>>>>>> 88782afb895a447aeef1a8222fed2379829af5b7 */
+}
+
+.add-patient-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  height: 160px;
+  background-color: #C5D3E5;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.add-patient-card {
+  width: 170px;
+  text-decoration: none;
+  color: #fcf6f6;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #3E6EA8;
+  transition: background-color 0.3s;
+}
+
+.add-patient-card:last-child {
+  margin-bottom: 0;
+}
+
+.add-patient-card:hover {
+  background-color: #748eaf;
+  color: white;
+}
+.search-bar-doc1{
+  width:"50px";
+  height:"30px";
+  /* font-Family: "Inria Serif"; */
+  margin-Right: "107px";
+  border-top-right-radius: 0px;
+  
+  border-bottom-right-radius: 0px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+
+}
+
+.search-bar-docgt {
+  padding: 8px;
+  height: 35px;
+  width: 300px;
+  border-radius: 6px;
+  margin-right: 20px;
+  border: none;
+  background-color: #f9fafc;
+}
+.buttones{
+  width: 130px;
+}
+
+@media (max-width: 768px) {
+  .navbar-doctor {
+    padding: 5px 10px;
+    margin-bottom: 15px;
+  }
+
+  .search-container321 {
+    margin-right: 10px;
+  }
+  
+.search-bar-docgt {
+  padding: 8px;
+  height: 5px;
+  width: 70px;
+  border-radius: 6px;
+  margin-right: 10px;
+  border: none;
+  background-color: #f9fafc;
+  font-size: 10px;
+}
+  .right .add-patient-dropdown {
+    position: relative;
+    display: flex;
+    margin-left: -180px;
+  
+  }
+  .left {
+    display: flex;
+    
+  }
+  .nav-itemb {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: -10px;
+  }
+  .nav-items{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: -10px;
+  }
+  .logow {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding-left: 5px;
+  }
+  .buttones{
+    width: 50px;
+    font-size: 10px;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+  
+  }
+
+}
+@media (max-width:425px){
+  .right {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+  
+  }
+  .nav-itemb,.nav-items {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .logow {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding-left: 5px;
+  }
+  .search-bar-docgt {
+    padding: 2px;
+    height: 5px;
+    width: 50px;
+    border-radius: 6px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f9fafc;
+    font-size: 10px;
+  }
+  .searching321Button {
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 8px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .search-bar-doc{
+    width:"50px";
+    height:"30px";
+    /* font-Family: "Inria Serif"; */
+    margin-Right: "107px";
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .weyh{
+    width: 10px;
+    height: 30px;
+  }
+}
+
+.Allbills{
+  color: white;
+  font-size: 2em;
+  margin-bottom: 10px;
+ 
+}
+
+.Check{
+  color: white;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.All{
+  font-size: 1.4em;
+}

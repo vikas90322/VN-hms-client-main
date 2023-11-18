@@ -1,0 +1,54 @@
+/* MyTable.css */
+
+  .table-container35 {
+    margin-top: 65px; 
+  max-height: calc(100vh - 50px); 
+  /* overflow-y: auto; */
+  position: relative;
+  background-color: #f7f7f7;
+  padding: 10px;
+  }
+  .patienttable20 {
+    font-family: "Inria Serif";
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  }
+  
+  .patientsdata20 td{
+    margin-top: 70px;
+
+}
+  .headcolor1 {
+    position: sticky;
+    top: 4px; 
+    background-color: #3e6eab;
+    color: #f7f7f7;
+    z-index: 1; 
+  }
+  
+  .headcolor1 th{
+    font-family: "Inria Serif";
+    width:auto;
+      background-color: #3E6EAB;
+      color: #f7f7f7;
+    
+    }
+  
+  
+  .pnamee{
+    color: blue;
+  }
+  .pstatus{
+    color:rgb(49, 35, 252)
+  }
+
+  @media (max-width:425px){
+
+    .patienttable20 th,
+    .patienttable20 td{
+      padding: 6px 3px;
+      font-size: 7.5px;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,43 @@
+.container-reg-form89{
+    padding-top: 15%;
+    /* width: 60%;
+    background-Color: #f0f0f0;
+    padding: '20px';
+    border-Radius: '5px';
+    box-Shadow: '0px 0px 10px rgba(0, 0, 0, 0.2)';
+    width: '400px';
+    margin: '0 auto';
+    text-Align: 'center'; */
+}
+/* .drpcvvroyal-heading89{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: red;
+} */
+.drpcvvroyal{
+    color: black;
+    /* font-size: 1rem; */
+    text-align: left;
+    padding-top: 10px;
+}
+.form-groupdrpcvvroyal{
+    text-align: left;
+    font-size: 1.1rem;
+}
+.Reg-button89{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-Radius: 3px;
+    cursor: pointer;
+    margin-top: 5%; 
+
+}
+.doctor-heading89{
+    font-family: "roboto";
+    font-weight: 800;
+    /* text-decoration: underline; */
+    text-decoration-color: rgb(166, 110, 89);
+}

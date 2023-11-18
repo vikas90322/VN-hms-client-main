@@ -1,0 +1,86 @@
+/* OrderList.css */
+
+/* Main container styles */
+.OrderList-main {
+  background-color: #ececec;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+/* Styling for the Purchase Order heading */
+.PurchaseOrder-main {
+  margin-top: 10vh;
+}
+
+/* Table styles */
+.table-dropdown {
+  width: 100%;
+  justify-content: space-between;
+  border-collapse: collapse;
+}
+
+.table-dropdown th,
+.table-dropdown td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* Search input and button styles */
+.search-box-tnx {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* overflow: hidden; */
+  max-width: 350px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center align the search box */
+}
+
+.search-box-tnx input {
+  border: none;
+  padding: 8px 12px;
+  flex-grow: 1;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Edit, Save, and Delete icon styles */
+/* Edit button styles */
+table .edit-ol {
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* Save button styles */
+table .save-ol {
+  background-color: #28a745; /* Green */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* Delete button styles */
+table .delete-ol {
+  background-color: #dc3545; /* Red */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 429px) {
+  .table-dropdown {
+    width: 100%;
+    justify-content: space-between;
+    border-collapse: collapse;
+    font-size: 0.55rem;
+  }
+}

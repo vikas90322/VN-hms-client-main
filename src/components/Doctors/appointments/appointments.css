@@ -1,0 +1,184 @@
+.empid143appointments {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+   margin-top: 5%;
+  /* margin-left: 7%;  */
+  width:100%;
+  background: #FFF;
+  font-family:"Inria Serif" ;
+  position: relative;
+  
+}
+
+/* .empid143currentDateTime{
+  font-size: 20px;
+ display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 225px;
+  margin-bottom: 15px;
+
+} */
+
+/* .Total-Appointments-empid143{
+margin-top: 24px;
+  padding-left: 20px;
+} */
+
+  .search-empid143{
+
+  display: flex;
+  
+  
+ 
+}  
+.appoinments-empid143{
+  display: flex;
+  flex-direction: row;
+  /* margin: 20px; */
+  width: 93vw;
+  margin-top: 10px;
+  padding: 20px 15px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+/* .empiddt{
+  
+
+} */
+
+.empid143appointmentscount {
+  /* margin-right: 1000px; */
+  font-size: 18px;
+  /* margin-top: 124px;
+  margin-bottom: 133px; */
+}
+
+.empid143searchbar {
+  display: flex;
+  align-items: center;
+   
+}
+
+.empid143inputsearch {
+  /* width: 250px;
+  
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  border-right: none;
+  border-radius: 5px; */
+
+
+  width: 304.94px;
+height: 26.69px;
+top: 22px;
+left: 786px;
+border: 1px solid 
+rgba(197, 211, 229, 1);
+
+}
+
+.empid143buttonsearch {
+ 
+  background: #3D50AE;
+    color: #fff;
+    width: 134.11px;
+    height: 26.69px;
+    left: 1101.75px;
+    margin-top: 1%;
+   
+    border:1px solid rgb(168, 199, 236);
+  
+  
+}
+
+.empid143buttonsearch:hover {
+  background-color:rgb(168, 199, 236);
+  border:1px solid rgb(168, 199, 236);
+}
+
+.empid143input {
+  margin-top: 20px;
+}
+
+.empid143table {
+   width:100%; 
+   border: 0.5px solid rgba(0, 0, 0, 0.30);
+
+   background: #ECECEC;
+  font-family:"Inria Serif" ;
+  
+  /* margin: 20px 15px; */
+  
+}
+.appointment123:nth-child(even){
+  background-color: #ccc;
+  
+}
+.appointment123 tr:nth-child(even){
+ background-color: #702222;
+}
+
+.empid143head {
+  border: 0.5px solid rgba(0, 0, 0, 0.30);
+
+background: #ECECEC;
+  
+}
+
+.empid143row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.empid143h123{
+  text-align: center;
+  padding: 8px;
+  color: black;
+
+ 
+
+}
+
+
+
+.empid143b1 {
+  text-align: center;
+  padding: 8px;
+  
+ 
+ 
+}
+.empid143h123{
+  border: 0.5px solid rgba(0, 0, 0, 0.30);
+
+  background: #ECECEC;
+}
+.empid143b1{
+  background: #FFF;
+  font-family:"Inria Serif" ;
+}
+.empid143b1 td:nth-child(even) {
+  background-color: #c65353;
+}
+
+
+.empid143row{
+  background: #789AC2;
+}
+
+.empid143view {
+  background: #3D50AE;
+ color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.empid143view:hover {
+  background-color: #0056b3;
+}

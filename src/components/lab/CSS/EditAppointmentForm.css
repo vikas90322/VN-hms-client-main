@@ -1,0 +1,104 @@
+.type_table_06 {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+   
+  }
+  
+  
+  .th, td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  
+  .th {
+    background-color: #f2f2f2;
+  }
+  
+  .button-save-06 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+    font-size: 1.3rem;
+    border-radius: 6px;
+  }
+  .button-cancel-06{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+    font-size: 1.3rem;
+    border-radius: 6px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .form-appointment06 {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f5f5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .form-div06 {
+  margin-bottom: 10px;
+  
+  }
+  
+  .label-form06 {
+  display: block;
+  
+  font-size: 1.3rem;
+  
+  }
+  .input-appointment-06{
+      width: 50%;
+      height: 40px;
+      padding: 10px;
+      border-width: 1px;
+      border-radius: 6px;
+  }
+  .overlay-06 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .popup-appointment-06 {
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 20px;
+    background: transparent;
+  }  
+  .buttons-edit-06{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }

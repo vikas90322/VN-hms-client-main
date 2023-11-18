@@ -1,0 +1,44 @@
+.labhsk14{
+    padding-top: 0%;
+   
+}
+.tbsk14-lab{
+    margin-left: 8%;
+    margin-top: 3%;
+    width: 90%;
+}
+.labtest-main123{
+    width: 93%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.sk14-arrows143-s-lab{
+    margin-left: 8%;
+    margin-top: 6%;
+    font-size: 2rem;
+    display: flex;
+
+}
+
+
+@media only screen and (max-width: 427px){
+    .sk14-arrows143-s-lab{
+        margin-top: 20%; 
+        margin-left: 22%;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .h1cvvroyal-head-lab{
+        font-size: 1.1rem;
+        margin-top: 5%;
+    }
+    .tbsk14-lab{
+        margin-left: 20.5%;
+        width: 79%;
+        font-size: 0.6rem;
+    }
+    .lab-test-td{
+        font-size: 0.6rem; 
+    }
+}

@@ -1,0 +1,146 @@
+.sk14-arrows14 {
+
+  
+  font-size: 50px;
+}
+.sk14{
+  width: 95%;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+.certificate-back-button{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.sk14-dropdown-container14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+
+  width: 100%;
+}
+
+.sk14-input-container14 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sk14-dropdown14 {
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0%;
+  margin-right: 10px;
+}
+
+.sk14-form-button14 {
+  padding: 10px ;
+  border: 0px solid rgba(0, 0, 0, 0.30);
+
+background: #3D50AE;
+  color: white;
+  /* border: 100%; */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  width: 200px;
+  border-width: 0px;
+}
+
+.table-con234{
+  background-color: rgba(62, 110, 168, 1);
+}
+
+.sk14-form-button14:hover {
+  background-color: #0056b3;
+}
+.certificate-fetch-container14{
+  padding: 15px;
+  margin-top: -5%;
+
+
+}
+.table14 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+
+
+.ks14table-head,
+.ks14table-data {
+  
+  padding: 8px;
+  text-align: center;
+}
+.ks14table-head{
+  
+  /* color:black; */
+  height: 40px;
+  font-size: 1rem;
+  text-align: center;
+}
+/* tr:table14-child(even) {
+  background-color: #f2f2f2;
+} */
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+
+} */
+.ks14row:nth-child(even){
+background-color: #f2f2f2;
+}
+.hesd14s{
+  margin: bottom;
+  
+}
+
+
+.edit-button14 {
+  background-color: #3D50AE;
+  color: #fff; 
+  border: none;
+  padding: 4px 8px;
+  margin-right: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.print-button14 {
+  background-color: #28a745; 
+  color: #fff; 
+  border: none;
+  padding: 4px 8px;
+  margin-right: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.edit-button14:hover{
+  background-color:black; 
+  color: #fff;
+}
+.print-button14:hover {
+  background-color: #07660bdc; 
+  color: #fff;
+}
+
+
+.edit-button14:disabled,
+.print-button14:disabled {
+  background-color: #ccc; 
+  color: #666;
+  cursor: not-allowed;
+}
+
+
+

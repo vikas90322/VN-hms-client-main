@@ -1,0 +1,76 @@
+.heading-11-pp {
+  align-items: center;
+  color: #5b85f1;
+  margin-left: 500px;
+  font-family: "Inria Serif";
+}
+
+.namepatient{
+  text-decoration: none;
+}
+.table-container45 {
+ 
+  margin-top: 65px; 
+  max-height: calc(100vh - 50px); 
+  /* overflow-y: auto; */
+  position: relative;
+ background-color: #f7f7f7;
+  padding: 10px;
+ 
+  
+
+}
+.popup-table-11-pp {
+  font-family: "Inria Serif";
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+.patientsdata30{
+  margin-top: 50px;
+}
+.headcolor154{
+  position: sticky;
+    top: 4px; 
+    background-color: #3e6eab;
+    color: #f7f7f7;
+    z-index: 1; 
+}
+.headcolor154 th{
+font-family: "Inria Serif";
+  background-color: #3E6EAB;
+  color: #f7f7f7;
+
+}
+.popup-table-11-pp th,
+.popup-table-11-pp td {
+  padding: 8px;
+  text-align: center;
+}
+
+.popup-table-11-pp tr:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+@media (max-width:425px){
+
+  .table-container45 {
+    margin-top: 65px; 
+    max-height: calc(100vh - 50px); 
+    /* overflow-y: auto; */
+    position: relative;
+  }
+  .popup-table-11-pp {
+    font-family: "Inria Serif";
+    width: 400px;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    overflow: scroll;
+    font-size: 8.6px;
+  }
+  .popup-table-11-pp th,
+.popup-table-11-pp td {
+  padding: 8px 3px;
+  text-align: center;
+}
+}

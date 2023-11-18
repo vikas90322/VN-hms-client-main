@@ -1,0 +1,203 @@
+.dental33{
+    display: flex;
+}
+.vitals-container33 {
+    display: flex; /* Make the row a flex container */
+     flex-direction: row;
+     justify-content: space-between;
+     flex-wrap: wrap;
+  }
+  
+  .container334{
+    display: flex;
+/* justify-content: space-between; */
+ column-gap: 20px;
+  }
+  .container335{
+    display: flex;
+    column-gap: 50px;
+  }
+.dental-33tr,td{
+    background-color: white!important;
+    
+}
+
+  .textarea33 {
+height: 80px;
+   width:400px ; 
+margin-bottom: 10px;
+display: block;
+outline: none;
+cursor: pointer;
+}  
+
+.textarea331 {
+    height: 80px;
+       width:400px ; 
+       outline: none;
+       cursor: pointer;
+    
+    }  
+.textarea334{
+    margin-left: 120px;
+    width: 400px;
+    height: 80px;
+    cursor: pointer;
+    outline: none;
+    
+
+}
+.container233{
+
+    border-left: 1.5px solid black;
+    padding-left: 10px;
+}
+.hr33{
+    border-width: 1px;
+    color: black;
+    
+}
+.container331{
+    
+padding:15px ;
+
+}
+.div33{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.input331{
+    margin-bottom: 5px;
+    outline: none;
+    cursor: pointer;
+}
+ .vinput33{
+    width: 50% !important;;
+    margin-bottom: 5px;
+    outline: none;
+    cursor: pointer;
+}
+/* .vtd33{
+    
+position: absolute;
+left:77%;
+outline: none;
+cursor: pointer;
+
+}  */
+.textarea33-large{
+    height: 80px;
+   width:600px ; 
+margin-bottom: 10px;
+display: block;
+margin-top: 10px;
+outline: none;
+cursor: pointer;
+
+}
+.dental-33tr{
+
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.dental-table33{
+    border-collapse: separate;
+    border-spacing: 10px;    
+
+}
+.dental-table33 td{
+    padding: 5px;
+
+}
+.dental-table33 input[type="checkbox"]
+ {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+}
+.heading33{
+    text-align: center;
+}
+.dental-td33{
+    border: none;
+}
+.vital-td33{
+    border: none!important;
+    width: 150px;
+}
+
+.dental-heading{
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid black;
+
+}
+.allergy-alert33,
+.for-women33,
+.habit-history33
+{
+    padding-bottom: 15px;
+    border-bottom: 1.5px solid black;
+    padding-top: 15px;
+    
+}
+.dental33,
+.vitals-container33,
+.container334,
+.container335{
+    
+    border-bottom: 1.5px solid black;
+    padding:20px 0px;
+    margin-bottom: 15px;
+}
+.dental33{
+    border-top: 1.5px solid black;
+   
+   
+   
+    
+    
+
+}
+
+.radio33{
+    
+    color: brown;
+    border: none;
+}
+.savebtn33{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.nxtbtn33{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.btndiv33{
+    
+    display: flex;
+    justify-content: right;
+}
+.whole-container456{
+    width: 90%;
+    padding-top: 7%;
+    margin-left: 8%;
+}
+.history-input{
+   width: 400px; 
+    
+}
+.vitals-13{
+
+    /* border-bottom: 1.5px solid black; */
+    border-top: 1.5px solid black;
+    padding: 15px 0px;
+    margin-top: 30px;
+    
+}

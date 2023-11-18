@@ -1,0 +1,146 @@
+
+
+.AttFront{
+  margin-top: 10vh;
+  margin-left: 40vw;
+}
+
+.attachments-overlay_65 {
+    position: fixed;
+    top: 5vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .attachmentsheading23{
+    margin-top: 180px;
+    margin-left: 400px;
+    color: rgb(7, 7, 7);
+  }
+  .attachmentsbutton12{
+    margin-top: 30px;
+    border-radius: 4px;
+    width:200px;
+    background-color:coral;
+    color: white;
+    border: none;
+    margin-left: 400px;
+  }
+  .backk{
+    background-color: #f5f5f5;
+    height: 89vh;
+    width: 100vw;
+    margin-top: 12vh;
+  }
+  
+  .popup231 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%; 
+    width: 100%; 
+    margin-top: 20px;
+  }
+  
+  .popup-header123 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .attachments-title {
+    margin: 0;
+  }
+  
+  .popup-close-button231 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #090909;
+  }
+  
+  .attachment {
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-button321{
+    background-color: cyan;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .popup-content {
+    margin-top: 10px;
+  }
+  
+  .popup-content button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #030404;
+    color: rgb(251, 249, 249);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 15px;
+  }
+  
+  .input-grid label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-grid input {
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+  }
+  .attachments-content{
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+.popup-scrollable-content {
+    max-height: 400px; 
+    /* overflow-y: auto; */
+  }
+
+
+  @media (max-width:768px){
+    .attachmentsheading23{
+      margin-top: 100px;
+      margin-left: 200px;
+    }
+  .attachmentsbutton12{
+    margin-top: 30px;
+    border-radius: 4px;
+    width:200px;
+    background-color:coral;
+    color: white;
+    border: none;
+    margin-left: 200px;
+  }
+  }

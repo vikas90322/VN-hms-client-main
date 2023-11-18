@@ -1,0 +1,184 @@
+.left-1{
+  display: flex;
+  width: 64%;
+  /* justify-content: space-evenly; */
+}
+.nav-item-Billingreports{
+  margin-top: 2.5%;
+}
+/* Select options with white text color */
+.selectnavpha {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+.selectnavpha:focus {
+  outline: none;
+}
+
+/* Navbar styling */
+.navbar-doctor1 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: rgb(61, 80, 174);
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  /* padding: 5px; */
+  top: 0;
+  position: relative;
+  z-index: 1;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); /* Add shadow to the bottom of the navbar */
+}
+
+/* Logo style */
+.logo-doc {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: gold;
+  text-align: center;
+  padding-left: 14px;
+}
+
+/* Right side of Navbar */
+.right-doc {
+  display: flex;
+  align-items: center;
+}
+
+/* Profile icon style 
+.icon-profile-rounded-icon {
+  font-size: 40px;
+  margin-right: 20px !important;
+  cursor: pointer;
+}*/
+
+.profile-dropdown-logout {
+  position: absolute;
+  top: 55px;
+  right: 0;
+  background-color: #C5D3E5;
+  border: 1px solid white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 210px;
+  padding: 10px;
+  z-index: 1000;
+  color: black;
+  font-family: "Inria Serif";
+}
+
+.add-pbill-icon{
+  cursor: pointer;
+  font-size: 30px;
+  color:#ffffff;
+}
+
+/* Profile link style */
+.profile-link {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+/* Profile link hover style */
+.profile-link:hover {
+  background-color: #3E6EA8;
+  color: white;
+}
+
+/* Show profile dropdown when active */
+.profile-dropdown-logout.active {
+  display: block;
+}
+
+/* Style for individual information lines */
+.user-id {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Style for individual information lines (bottom margin) */
+.user-id {
+  margin-bottom: 8px;
+}
+
+/* Style for the dropdown container */
+.nav-item .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  margin-top: 5px; /* Adjust as needed */
+}
+
+/* Style for the dropdown options */
+.nav-item .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color when hovering over dropdown options */
+.nav-item .dropdown-content a:hover {
+  background-color: #007bff; 
+  color: #fff;
+}
+
+/* Display dropdown content on hover */
+.nav-item:hover .dropdown-content {
+  display: block;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+
+/* @media screen and (max-width: 425px) {
+  .left-1{
+    width: 30%;
+    justify-content: space-evenly;
+    margin-left: 50%;
+  }
+  .navbar-doctor1 {
+    width: 100%;
+    font-size: 0.5rem;
+  }
+} */
+
+
+@media screen and (max-width: 425px) {
+  .left-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .navbar-doctor1 {
+    font-size: 0.8rem; /* Adjust as needed */
+  }
+}

@@ -1,0 +1,127 @@
+/* Define styles for the table */
+.container-sk14 {
+    
+    
+  margin-left: 9%;
+
+    width: 100%;
+    margin-right:2% ;
+     margin: 1% 1%; 
+    
+    
+    
+    
+  }
+.date-boxsk14{
+  border: 1px solid black;
+}
+
+  .tablesk14 {
+    
+    
+    border-collapse: collapse;
+    width: 100%;
+     margin-top: 6%;
+    
+    /* margin-left: 7%;  */
+    
+  }
+  
+   .sk14td{
+    
+    padding:  10px 40px;
+    text-align: center;
+    background-color: white!important;
+  }
+  
+  .sk14th {
+    color:white;
+    background-color: #1060b5!important;
+    
+    padding:  10px 40px;
+    text-align: center;
+  }
+  
+  /* Define styles for the table header */
+  /* .tablesk14 th {
+    background-color: ;
+  } */
+  
+  /* Define styles for table rows */
+  /* .tablesk14 tr:nth-child(even) {
+    
+  } */
+  
+  /* Define styles for table rows on hover */
+  .tablesk14 tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style for the popup container */
+.popupsk14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    z-index: 999; /* Ensure the popup is on top of everything */
+  }
+  
+  /* Style for the popup content */
+  .popup-contentsk14 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px; /* Adjust the maximum width as needed */
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Style for the popup heading */
+  .popup-contentsk14 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the popup close button */
+  .popup-contentsk14 button {
+    background-color: #f44336; /* Red color for the close button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the close button on hover */
+  .popup-contentsk14 button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  .pbsk14{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+  }
+
+  .pbsk14:hover{
+    background-color: blue;
+    cursor: pointer;
+  }
+  .gosk14{
+    background-color: #007bff;
+    color: white;
+    padding: 0 10px;
+  }
+  .consdate{
+    border: 1px solid black!important;
+    padding: 5px;
+    outline: none!important;
+    border-radius: 5px;
+  }

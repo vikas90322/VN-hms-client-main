@@ -1,0 +1,87 @@
+.trimester-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+    gap: 1%; 
+    /* overflow: auto; */
+  }
+  
+  /* Style each individual trimester */
+  .trimester {
+    border: 1px solid #ccc;
+  
+    background-color: #f2f2f2;
+    /* overflow: auto; */
+  }
+  
+  .trimester h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .trimester-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ccc!important;
+    
+  }
+  
+  
+  .trimester-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    color: black;
+    background-color: white!important;
+  }
+  
+  .trimester-table th {
+    background-color: #ccc!important;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    color: black;
+  }
+  
+  .trimester-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .headsk14{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .sss{
+    border: none;
+  }
+  .sss1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    /* overflow: auto;s */
+  }
+  .Remarks-page-tnx-ipog{
+    margin-left: 650px;
+    
+  }
+  .rectangle-box-ipog{
+    height: 180px;
+    width: 240px;
+    
+    
+
+  }
+  .abc{
+    margin-left: 7%;
+    margin-top: 6%;
+  }
+
+  .table-cell{
+    background-color: white!important;
+  }
+  .scanning-table,.scanning-table-th{
+    background-color: #ccc!important;
+  }

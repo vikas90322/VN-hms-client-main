@@ -1,0 +1,140 @@
+.data-table-06 {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex; /* Use flexbox to arrange elements horizontally */
+    justify-content: space-between; /* Space evenly between elements */
+    align-items: flex-start; 
+  }
+  
+  .labref_6{
+    width: 15% !important;
+  }
+
+  .paymentmode_6{
+    margin-right: 12%;
+  }
+  table {
+    flex: 1;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tablebill256 th{
+    background-color: rgba(120, 154, 194, 1) !important;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  
+  .bill-form-06 {
+  
+  margin-left: 20px;
+  margin-top: -40px;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .bill-form-06 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .form-row-06 {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .form-row-06 label {
+    flex: 1;
+  
+  }
+  
+  .form-row-06 input {
+    flex: 2;
+    padding: 5px;
+   
+    border-radius: 4px;
+  }
+  
+  .form-row-06 span {
+    flex: 2;
+  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #fff;
+    min-width: 100px;
+    text-align: center;
+  }
+  
+  
+  .button-container-06 {
+    text-align: center;
+  }
+  
+  /* Style for the buttons inside the button-container */
+  .button-container-06 button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth hover effect */
+  }
+  
+  /* Adjust button size on hover */
+  .button-container-06 button:hover {
+    background-color:#0056b3;
+  }
+  
+  .email-icon-06 {
+    font-size: 34px; /* Adjust the size as needed */
+    
+  }
+  
+  .printer-icon-06 {
+    font-size: 34px; /* Adjust the size as needed */
+    
+  }
+  
+  .search-button-06 {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .search-button-06:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-button-06 {
+    background-color:#0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-button-06:hover {
+    background-color: #0056b3;
+  }

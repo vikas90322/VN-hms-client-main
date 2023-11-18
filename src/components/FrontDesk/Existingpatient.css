@@ -1,0 +1,323 @@
+/* .existing-patient-container322 {
+
+    width: 50%;
+    margin: 90px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    height: 40vw;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .existingpatientsdetail{
+    display: flex;
+  }
+  .Existing-patientname{
+    display: grid;
+    margin-left: 160px;
+  }
+  .subbutton2{
+    width: 15vh;
+    background-color: #3D50AE;
+    color: white;
+    border-radius: 5px;
+  }
+  .existing-patient-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .existing-labels {
+    font-weight: bold;
+  }
+  
+  .existing-inputs,
+  .existing-select,
+  .existingaddress {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .existing-select {
+    height: 40px;
+  }
+  
+  .existingaddress {
+    resize: vertical;
+    min-height: 80px;
+    max-width: 60%;
+  }
+  
+  .existing-button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  
+  .existing-button:hover {
+    background-color: #0056b3;
+  } 
+   */
+   .addre{
+    width: 90%;
+    margin-left: 10px;
+    height: 10px;
+  }
+  .existing-labelss{
+    margin-left: 10px;
+  }
+  .existing-labelsss{
+    margin-left: 85px;
+  }
+  .existing-labelssss{
+    margin-left: 140px;
+  }
+  .ro,.rowsa{
+    display: flex;
+    flex-direction: row;
+  }
+  .roq{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+  }
+  
+  
+  
+  
+  .existing-patient-containers {
+      
+      padding: 10px;
+      background-color: #f5f5f5;
+    }
+    .Existing-patientname{
+      display: grid;
+     text-align: center;
+    }
+    .existing-patient-form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .form-group {
+      margin-bottom: 16px;
+    }
+    
+    .existing-labels {
+      font-weight: bold;
+      margin-left: 10px;
+      margin-top: 0px;
+    }
+    .emails{
+      width: 90%;
+      margin-left: 10px;
+      
+    }
+    .groups{
+      width: 90%;
+      margin-left: 10px;
+  
+    }
+    .mobiles{
+      width: 58.5%;
+      margin-left: 140px;
+  
+    }
+    .ages{
+      margin-left: 10px;
+      width: 140%;
+  
+    }
+    .genders{
+      width: 66%;
+      margin-left: 85px;
+  
+    }
+    .namess{
+      margin-left: 10px;
+      width: 110%;
+  
+    }
+    .ids{
+      margin-left: 10px;
+      width: 90%;
+      margin-bottom: -10px;
+    }
+    .time-input {
+      display: flex;
+      margin-top: 30px;
+      margin-left: -135px;
+      }
+    
+    .existing-inputs,
+    .existing-select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 16px;
+    }
+    
+    .existing-select {
+      height: 40px;
+    }
+    
+    textarea {
+      resize: vertical;
+      min-height: 77px;
+    }
+    
+    .existing-button{
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 16px;
+    }
+    
+    .existing-button:hover {
+      background-color: #0056b3;
+    }
+    .input-table-container123 {
+      width: 100%;
+      padding: 20px 20px 20px 0px;
+      border-right: 3px solid #ccc;
+      box-sizing: border-box;
+      /* overflow-y: auto; */
+      margin-left: 0px;
+      }
+      .btnbtn-primary{
+        margin-left: 550px;
+        border: none;
+        background-color: #007bff;
+        border-radius: 10px;
+        color: white;
+      }
+  
+    
+  
+  
+    @media(max-width:768px){
+      .time-input {
+        display: flex;
+        margin-top: 30px;
+        margin-left: -110px;
+        }
+      .btnbtn-primary{
+        margin-left: 320px;
+        border: none;
+        background-color: #007bff;
+        border-radius: 10px;
+        color: white;
+      }
+      .existing-patient-container {
+        width: 90%;
+        margin: 60px auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .Existing-patientname{
+        display: grid;
+       text-align: center;
+       margin-left: 1px;
+      }
+      .existing-labels {
+        font-weight: bold;
+        margin-left: 5px;
+      }
+      .rowsa{
+        display: flex;
+        flex-direction: column;
+      }
+      .mobiles{
+        width: 57.5%;
+        margin-left: 100px;
+    
+      }
+      .existing-labelssss{
+        margin-left: 100px;
+      }
+      .existing-labelsss{
+        margin-left: 60px;
+      }
+      .genders{
+        width: 65%;
+        margin-left: 60px;
+    
+      }
+      .namess{
+        margin-left: 10px;
+        width: 100%;
+    
+      }
+      .ages{
+        margin-left: 10px;
+        width: 125%;
+    
+      }
+  
+    }
+    @media (max-width:425px){
+      .time-input {
+        display: flex;
+        margin-top: 10px;
+        margin-left: -110px;
+        }
+      .existing-labelsss{
+        margin-left: 20px;
+      }
+      .genders{
+        width: 76%;
+        margin-left: 20px;
+    
+      }
+      .namess{
+        margin-left: 10px;
+        width: 80%;
+    
+      }
+      .existing-labelssss{
+        margin-left: 60px;
+      }
+      .ages{
+        margin-left: 10px;
+        width: 105%;
+    
+      }
+      .mobiles{
+        width: 63.5%;
+        margin-left: 60px;
+    
+      }
+      .btnbtn-primary{
+        margin-left: 320px;
+        border: none;
+        background-color: #007bff;
+        border-radius: 10px;
+        color: white;
+      }
+      .button-group{
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+  }

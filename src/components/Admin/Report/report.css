@@ -1,0 +1,68 @@
+/* LabReports.css */
+
+.lab-reports-container14 {
+    text-align: center;
+    padding-top: 0%;
+    /* margin-left: 8%; */
+  }
+  .report-main123{
+    width: 90% !important;
+    margin-left: 9% !important;
+  }
+  
+  .header14 {
+    font-size: 24px;
+  }
+  
+  .lab-reports-table14 {
+    border-collapse: collapse;
+    width: 100%;
+    /* margin-top: 20px; */
+  }
+  
+  .table-header14 {
+    background-color:#25947c;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .table-row14:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
+  .table-row14:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .table-row14:hover {
+    background-color: #e0e0e0;
+  }
+  .labser-table_125 th{
+    background-color:#3e6eab !important;
+  }
+  .table-row14 td {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+  }
+.input-field_1-admin{
+  outline: none;
+  border: none;
+}
+.search-bar_1-admin{
+  border: 1px solid grey;
+  width: 30%;
+  margin: 1% ;
+  border-radius: 7px;
+}
+
+  @media only screen and (max-width: 427px){
+    .labser-table_13{
+      width: 69%;
+      font-size: 0.53rem;
+      margin-left: -3%;
+    }
+    .search-bar_1-admin{
+      width: 90%;
+    }
+   
+  }

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 427px) {
+    .lab-test-details-tb{
+        font-size: .6rem;
+    }
+    .fa-back-arrow{
+        font-size: 1.5rem;
+        margin-top: 2%;
+    }
+}

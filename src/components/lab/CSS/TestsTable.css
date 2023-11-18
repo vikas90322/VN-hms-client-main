@@ -1,0 +1,299 @@
+/* Modal styling */
+
+
+.find-reports-page {
+  position:relative;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.action-modal_1 ,.action-modal_1  {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.name-modal_1,.action-modal-overlay_1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  height: 100vh; 
+}
+
+.action-content_1 {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  /* Make sure content wraps instead of stretching modal */
+  max-width: 500px;
+  width: 100%;
+  max-height: 80vh; /* Adjust the value as needed */
+  /* overflow-y: auto; */
+}
+
+.action-content_1 ,.action-modal-content_1{
+  width: 500px;
+  max-height: 80vh;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background: #fff;
+  /* max-height: 100%; */
+  /* overflow-y: auto; */
+  padding: 20px;
+  max-width: 600px;
+  margin-top: 14vh;
+}
+
+/* CSS/LabServiceTable.css */
+.action-modal-overlay_1  {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+.action-modal-overlay_1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+/* .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  } */
+
+.close-button_1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1; /* Ensure the button is above modal content */
+  color: #555;
+}
+
+/* LabServiceTable.css */
+
+/* Styling for the search bar */
+.search-bar_1-lab13 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
+.search-input_1 {
+  font-family: Inria-Serif;
+  display: flex;
+  width: 20%;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  /* padding: 8px; */
+}
+
+.search-icon_1 {
+  margin-right: 8px; /* Adjust as needed */
+  color: #555; /* Icon color */
+}
+
+.input-field_1 {
+  border: none;
+  outline: none;
+  /* flex: 1; */
+}
+
+.input-field_1:focus {
+     background-color: #3D50AE;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
+
+.labser-table_1232 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.labser-table_1 th,
+.labser-table_1 td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.labser-table_1 th {
+  background-color: #3D50AE;
+  color: white;
+  font-weight: bold;
+}
+
+.labser-edit-button {
+  background-color: #3D50AE;
+
+ 
+
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+
+
+
+
+
+/* Container for buttons */
+.button-container-lab {
+  display: flex; /* Use flexbox to arrange items horizontally */
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px; 
+  
+}
+
+/* Go button */
+.charli_00777-lab {
+  background-color: #3D50AE;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.charli_00777-lab:hover {
+  background-color: #0056b3;
+  margin-left: -20%;
+}
+
+/* Today button */
+.asdf_007-lab {
+  background-color:#3e6cab;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.asdf_007-lab:hover {
+  background-color:#0056b3;
+}
+
+
+.date-input-lab{
+  width: 15% !important;
+  margin-right: -20%;
+  padding: 5px;
+}
+
+.refresh-button-lab{
+  margin-right: 30px; 
+  border-radius: 5px;
+  padding: 7px 13px;
+  background-color:#3e6cab;
+  color: #fff;
+  cursor: pointer;
+  margin-left: -33%;
+
+}
+
+.refresh-button:hover{
+  background-color:#0056b3;
+}
+
+
+@media only screen and (max-width: 427px) {
+  .search-bar_1-lab13 {
+    display: flex;
+    /* flex-direction: column; */
+    font-size: 1rem;
+  }
+  .search-input_1{
+    margin-left: -3%;
+    height: 2rem;
+    /* width: 60%; */
+    margin-right: 3px;
+    width: 30%;
+    font-size: 0.5rem;
+  }
+  .date-input-lab{
+    margin-left:-.5rem;
+    margin-right: .5rem;
+    width: 3rem;
+    font-size: 0.6rem;
+    height: 2rem;
+  }
+  .button-container-lab{
+    font-size: 1rem;
+  }
+  .charli_00777-lab{
+    padding: 4px 14px;
+  font-size: 16px;
+  margin-left: 2rem;
+  }
+  .asdf_007-lab{
+    padding: 4px 4px;
+    font-size: 16px;
+    
+    margin-right: -.05rem;
+  }
+  
+.refresh-button-lab{
+  padding: 4px 4px;
+font-size: 10px;
+  /* margin-left: -33%; */
+  margin-left:-5px;
+
+}
+.labser-table_1 th{
+  width: 100%;
+  font-size: .8rem;
+}
+.labser-table_1 td{
+  width: 100%;
+  font-size: .8rem;
+}
+
+
+}

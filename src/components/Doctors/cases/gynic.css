@@ -1,0 +1,135 @@
+.A7total{
+    border: 1.5px solid black;
+    margin-left: 6%;
+    margin-right: 10px;
+    margin-top: 4%;
+    /* background-color: whitesmoke; */
+    width: 90%;
+    padding: 10px;
+}
+.two-containers-docks23{
+    width: 93%;
+    margin-left: 7%;
+    padding-top: 7%;
+}
+.A7header{
+     text-align: center;
+   
+    width: 36vw;
+    
+}
+.containerA7{
+    display: flex;
+   
+}
+
+.A7leftdiv{
+    flex: 1;
+    padding: 20px;
+    height: 300px;
+    width: 40vw;
+   
+}
+.A7rightdiv{
+    flex: 1;
+    padding: 20px ;
+    width: 40vw;
+}
+.A7subdivs{
+   
+ text-align: center;
+    width: 10vw;
+    border: 1px;
+    height: 5vh;
+    
+
+}
+.outer-container {
+    margin-right: 5px;
+    border: 1.5px solid black;
+    padding: 12px;
+    height: 70px; 
+    width: 11vw;
+    display: inline-block; 
+}
+/* 
+.A7tabdiv{
+    height: 400px;
+} */
+
+.A7tab{
+   border-collapse: collapse;
+   /* width: 97vw; */
+} 
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+/* input{
+    background-color: transparent;
+    border: none;
+    
+    
+} */
+.vertical-lineA7 {
+    border-left: 1px solid black; /* Add a vertical line to the left side */
+    height: 374px; /* Set the height of the line */
+}
+
+.vertical-line2A7 {
+    border-left: 1px solid black; /* Add a vertical line to the left side */
+    height: 600px; /* Set the height of the line */
+}
+
+.A7leftdiv1{
+    flex: 1 1 1;
+    padding: 20px;
+    height: 200px;
+    width: 60vw;
+   
+}
+.A7rightdiv1{
+    flex: 1 1;
+    padding: 20px ;
+    width: 40vw;
+}
+.A7lastdiv{
+    text-align: center;
+    background-color:white ;
+    padding: 10px;
+}
+.A7tabinput{
+    border: none;
+    width: auto;
+    background-color: whitesmoke;
+}
+.header-content {
+    display: flex;
+    align-items: center; /* Vertically align items */
+  }
+  
+  .icon {
+    width: 40px; /* Set the desired width for your icon */
+    height: 40px; /* Set the desired height for your icon */
+    margin-right: 10px; /* Add spacing between the icon and text */
+  }
+
+  .A7savebtn{
+    background: rgb(32, 140, 32);
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .A7container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .A7lmp{
+    height: 25px;
+    width: 110px;
+  }

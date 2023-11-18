@@ -1,0 +1,439 @@
+/* Overall page style */
+.pharmnav-discount{
+  height: 20px;
+  width: 160px;
+  margin-left: 25px;
+}
+.pharmnav-num{
+  margin-left: 52px;
+  height: 20px;
+  width: 160px;
+}
+.pharmnav-net{
+  margin-left: 85px;
+  height: 20px;
+  width: 160px;
+}
+.pharmnav-roundoff{
+  margin-left: 46px;
+  height: 20px;
+  width: 160px;
+
+}
+.pharmnav-billamount{
+  margin-left: 29px;
+  height: 22px;
+  width: 160px;
+}
+.pharmbill-selection{
+  width: 30px;
+  height: 25px;
+}
+.pharmbill-input-paid-amount{
+  height: 20px;
+  width: 71px;
+}
+.search-input-top{
+  height: 22.3px;
+  width: 130px;
+  border-right: transparent;
+  border: none;
+  border: 1px solid grey;
+}
+.pharmbill-butt{
+  height: 26px;
+  color: white;
+  background-color: #007bff;
+  border: 1px solid grey;
+  /* border-radius: 5px; */
+  border-left: transparent;
+  /* width: 130px; */
+}
+.pharbill-add-medicine{
+  height: 1vh;
+  width: 1vw;
+  margin-left: 1px;
+}
+.pharbill-medicine-price{
+  height: 1vh;
+  width: 1vw;
+}
+.pharbill-quantity{
+  height: 1vh;
+  width: 1vw;
+}
+.pharbill-totaldata{
+  height: 1vh;
+  width: 1vw;
+}
+
+.pharbill-addbutton{
+  height: 1vh;
+  width: 1vw;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+
+
+.main-pharmacy {
+display: flex;
+flex-wrap: wrap;
+max-width: 100%;
+padding: 20px;
+background-color: #f4f4f4;
+border-radius: 5px;
+}
+
+/* Adjust the width of pharmacy-billing-container */
+.pharmacy-billing-container {
+flex-basis: calc(70% - 20px); /* Adjust the width */
+}
+
+/* Main Headline, Clear Bill, and Print Prev Bill buttons */
+.main-head-line {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+h1 {
+font-size: 24px;
+margin: 0;
+}
+
+.clear-bill-button,
+.print-prev-bill-button {
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Date label */
+.bill123 {
+font-size: 18px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+
+.search-box-pb-btn{
+  padding: 8px 18px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.patient-details {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin-bottom: 20px;
+background-color: white;
+height: 5vh;
+margin-top: 2%;
+align-items: center;
+
+}
+
+.patient-details > div {
+flex-basis: calc(20% - 20px);
+margin-right: 20px;
+font-size: 16px;
+
+}
+
+/* Add Medicine Form */
+.add-medicine {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+margin-bottom: 20px;
+
+}
+
+.add-medicine input[type="text"],
+.add-medicine input[type="number"],
+.add-medicine button {
+flex-basis: calc(17% - 30px);
+margin-bottom: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.add-medicine button {
+background-color: #28a745;
+color: #fff;
+border: none;
+cursor: pointer;
+height: 40px;
+margin-top: 10px;
+}
+
+.pharmacy-table {
+width: 100%;
+margin-bottom: 20px;
+/* overflow: hidden; Hide the vertical overflow */
+max-height: 400px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.asdfg th,
+.asdfg td {
+padding: 10px;
+text-align: left;
+white-space: nowrap; /* Prevent text wrapping */
+min-width: 100px; /* Set a minimum width for cells */
+max-width: 200px; /* Set a maximum width for cells */
+/* overflow: hidden; Hide overflowing content */
+text-overflow: ellipsis; /* Add ellipsis for text overflow */
+}
+
+table th,
+table td {
+padding: 10px;
+text-align: left;
+white-space: nowrap; /* Prevent text wrapping */
+/* min-width: 100px; Set a minimum width for cells */
+max-width: 200px; /* Set a maximum width for cells */
+/* overflow: hidden; Hide overflowing content */
+text-overflow: ellipsis; /* Add ellipsis for text overflow */
+}
+
+table th {
+  
+
+  background-color: #3D50AE;
+  color: #fff;
+
+}
+
+.pharmacy-table thead {
+position: sticky;
+top: 0;
+z-index: 1; /* Ensure the header is above the content */
+}
+
+.pharmacy-table tbody {
+max-height: 200px; /* Set the maximum height of the table body */
+/* overflow-y: auto; Enable vertical scrolling for the tbody */
+}
+
+.pharmacy-table-tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+.table-container {
+max-height: 300px; /* Adjust the desired height */
+overflow-y: auto; 
+}
+
+.print-container,
+.print-container * {
+visibility: visible;
+}
+
+.print-hidden-header {
+display: none;
+}
+
+.medicine-suggestion.out-of-stock {
+color: red;
+cursor: not-allowed;
+}
+
+@media print {
+body * {
+  visibility: hidden;
+}
+.print-container2,
+.print-container2 * {
+  visibility: visible;
+
+}
+.print-container2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.print-hidden-button {
+  display: none;
+}
+.print-hidden-header {
+  display: none;
+}
+}
+
+/* Side Panel */
+.side-panel {
+flex-basis: calc(30% - 20px); 
+margin-left: 40px;
+padding: 20px;
+background-color: #f0f0f0;
+border-radius: 5px;
+position: sticky;
+top: 20px;
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.side-panel h2 {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.side-panel div {
+margin-bottom: 15px; /* Reduce vertical gap to 5px */
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.side-panel .input-group {
+display: flex;
+flex-direction: row; /* Display elements side by side */
+gap: 5px; /* 5px horizontal gap between elements */
+align-items: center; /* Vertically center elements */
+}
+
+.side-panel .input-group label {
+font-size: 14px;
+width: 130px;
+}
+
+.side-panel .input-group input[type="text"],
+.side-panel .input-group input[type="number"],
+.side-panel .input-group select {
+flex-grow: 1; /* Expand to fill available space */
+padding: 10px;
+border: 4px solid #ccc;
+border-radius: 5px;
+font-size: 14px;
+margin-left: 5px;
+}
+
+.side-panel .input-group input[type="text"]::placeholder,
+.side-panel .input-group input[type="number"]::placeholder {
+border-radius: 5px;
+}
+
+.side-panel .paid-amount {
+margin-bottom: 20px;
+}
+
+.side-panel .paid-amount select {
+flex-basis: 50%;
+margin-right: 10px;
+}
+
+.side-panel .save-print {
+display: flex;
+justify-content: space-between;
+}
+
+.side-panel button {
+width: 45%;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.side-panel button.print-button {
+background-color: #28a745;
+}
+
+.edit-pb {
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+.save-pb {
+  background-color: #28a745; /* Green */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+.delete-pb {
+  background-color: #dc3545; /* Red */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+
+#paymentMode {
+  width: 100px !important; 
+}
+
+
+
+@media screen and (max-width: 429px) {
+  .pharbill-title-n{
+     font-size: 1rem;
+  }
+  .bill123 {
+    font-size: 15px;
+    }
+    .pharbill-datepick{
+      width: 90px;
+    }
+    .main-head-line {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 90%;
+      }
+    .clear-bill-button{
+      padding: 8px 8px;
+    }
+    .print-container12{
+      width: 100%;
+      height: 50px;
+      background-color: white;
+    }
+    .add-medicine {
+      width: 80%;
+      margin-bottom: 20px;
+      
+      }
+      .add-medicine input[type="text"],
+.add-medicine input[type="number"],
+.add-medicine button {
+flex-basis: calc(5% - 10px);
+width: 35vw;
+}
+     .pharmacy-table{
+      font-size: 0.88rem;
+     }
+     .side-panel {
+      margin-left: 20px;
+      margin-top: 20px;
+      }
+}
+
+

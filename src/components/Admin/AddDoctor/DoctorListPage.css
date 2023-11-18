@@ -1,0 +1,65 @@
+
+.patient-details-containercvvroyal{
+  width: 93%;
+  margin-left: 7%;
+  padding-top: 0%;
+  
+ } 
+ .heading678{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 32%;
+ }
+  .h1cvvroyal {
+    font-size: 2.6rem;
+    /* font-weight: 700; */
+    margin: 15px;
+  }
+  .sk14-arrows143{
+    padding-top: 5%;
+   /* margin: 10px; */
+    font-size: 50px;
+    display: flex;
+    margin-left: 2%;
+        background-color: rgba(197, 211, 229, 0.5)
+  }
+  
+  .back-heading89{
+    display: flex;
+    flex-direction: row;
+  }
+  .patient-tablecvvroyal {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .doctor-hight89{
+    height: 30px;
+  }
+  
+  .patient-tablecvvroyal .theadcvvroyal, .patient-tablecvvroyal .tdbodycvvroyal {
+    padding: 10px;
+    text-align: left;
+    
+    border-bottom: 1px solid #ccc;
+  }
+  .back-heading89{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .patient-tablecvvroyal .theadcvvroyal {
+    background-color: #314ed1;
+    color: white;
+   
+    
+  }
+  
+  .patient-tablecvvroyal .tdbodycvvroyal tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .patient-tablecvvroyal .tdbodycvvroyal .trcvvroyal:hover {
+    background-color: #ddd;
+  }

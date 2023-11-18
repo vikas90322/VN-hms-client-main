@@ -1,0 +1,76 @@
+.card {
+    border-radius: 8px;
+  }
+  
+  .card-primary {
+    border-right: 4px solid #007bff;
+    color: #007bff;
+    height: 150px;
+   
+  }
+  
+  .card-success {
+    border-right: 4px solid #28a745;
+    color: #28a745;
+  }
+  
+  .card-info {
+    border-right: 4px solid #17a2b8;
+    color: #17a2b8;
+  }
+  
+  .card-danger {
+    border-left: 4px solid #1260cc;
+    background-color: #3a9bdc;
+    color: #fff;
+  }
+  
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:150px;
+  }
+  
+  .card-icon {
+    margin-right: 10px;
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #5579c6;
+
+  }
+  .income{
+    font-size: 2.5rem;
+    color: #fff;
+
+  }
+  
+  .card-content {
+    text-align: left;
+  }
+  
+  .card-value {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: blue;
+  }
+  
+  .card-label {
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #6c757d;
+  }
+  .link{
+    text-decoration: none;
+  }
+
+   .container-fluid{
+    width: 55%;
+    margin-left: 49%;
+margin-bottom: 50%;
+    height:150%;
+    margin-top: -170px;
+  } 

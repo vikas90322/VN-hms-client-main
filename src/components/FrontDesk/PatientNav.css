@@ -1,0 +1,62 @@
+.patient-right {
+  text-align: right;
+  padding: 7px;
+  background-color:#3E6EAB;
+  /* color: #fff; */
+  
+}
+.popup-overlay-23{
+  position: sticky;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; 
+}
+.close-popup-button{
+  background:white ;
+  float: right;
+
+
+  }
+  @media (max-width:100%) {
+    .patient-right {
+      justify-content: center;
+    }
+  
+    .popup-button {
+      margin-top: 1rem;
+    }
+  
+    .popup-content_95 {
+      width: 100%;
+  
+    }
+  
+    .close-popup-button-Tj {
+      font-size: 1rem;
+      top: 0.25rem;
+      right: 0.25rem;
+    }
+  }
+  
+  @media (max-width: 100%) {
+    .popup-content_95 {
+
+      width: 100%;
+      height:100%;
+    }
+
+
+  }

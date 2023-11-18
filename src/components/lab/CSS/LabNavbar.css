@@ -1,0 +1,192 @@
+/* navBar.css */
+.navbar-doctor-lab {
+    /* width: 100%; */
+    /* height: 10%; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 0px solid rgba(0, 0, 0, 0.30);
+      background: #3D50AE;
+
+      /* padding: 5px ; */
+      /* margin-bottom: 35px; */
+    /* box-shadow: #f9f9f9; */
+    /* position: fixed;
+    z-index: 9999;
+    top: 0; */
+   
+    }
+    .doc-link-nav{
+      text-decoration: none;
+      color: white;
+    }
+      
+    
+    .left-lab {
+      display: flex;
+      align-items: center;
+      width: 40%;
+      font-size: 1rem;
+    }
+    
+    .lab-logo {
+      font-size: 2rem;
+      font-weight: bold;
+      /* margin-right: 40px; */
+      font-family: 'Times New Roman', Times, serif;
+      color: gold;
+      /* margin-bottom: 6px; */
+      text-align: center;
+      padding-left: 14px;
+    }
+    
+    .nav-item-1 {
+      display: flex;
+      align-items: center;
+      /* margin-right: 20px; */
+      cursor: pointer;
+    }
+    
+    .icon-docks {
+     
+font-family: Inria Serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .icon-add{
+      margin-right: 10px;
+      padding-top: 3px;
+      font-size: 28px;
+    }
+    .icon-profile{
+      margin-right: 10px;
+      padding-top: 3px;
+      font-size: 35px;
+    }
+    
+    .dropdown {
+      position: relative;
+    }
+    
+    .dropdown-content {
+      position: relative;
+      background-color: #f9f9f9;
+      min-width: 150px;
+      display: none;
+      padding: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .right-lab {
+      display: flex;
+      /* align-items: center; */
+    }
+    
+    .search-bar-doc-lab {
+      /* padding: 8px;
+      height: 35px;
+      width: 200px;
+      border-radius: 6px;
+      margin-right: 20px;
+      border-width:0px;
+      border-style:none;
+       */
+      background-color: #f9fafc;
+      margin-left: -10%;
+    }
+    
+    .dots-box {
+      position: relative;
+      margin-right: 20px;
+    }
+    
+    .dots-icon {
+      cursor: pointer;
+      /* margin-right: 10px; */
+      padding-top: 3px;
+      font-size: 30px;
+    }
+    
+    .dots-content {
+      position: relative;
+      top: 100%;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 150px;
+      display: none;
+      padding: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dots-box:hover .dots-content {
+      display: block;
+    }
+  
+    /* navBar.css */
+  .appointment1{
+    width: 42.903px;
+height: 38px;
+flex-shrink: 0;
+  }
+
+  .lab-logo{
+    height: 65px;
+    width: 150px;
+  }
+  .icon-profile-rounded-icon-lab{
+background-color: #f0f0f0;
+color: #333;
+border-radius: 50%;
+align-items: center;
+display: flex;
+justify-content: center;
+width: 40px;
+height: 40px;
+font-size: 25px;
+
+  }
+  @media only screen and (max-width: 427px){
+    .navbar-doctor-lab{
+      width: 100%;
+    }
+    .icon-profile{
+      float: left;
+    }
+    .left-lab{
+        font-size: 10px;
+    }
+    .right-lab {
+        
+        display: flex;
+        /* float: left; */
+      }
+    .lab-logo{
+        height: 50px;
+        width: 100px;
+      }
+      .search-bar-doc-lab{
+        width: 20vw;
+        height: 20px;
+        margin-left: -30%;
+        margin-top: 16px;
+      }
+      .icon-profile-rounded-icon-lab{
+      float: right;
+      }
+      .searching321Button{
+        margin-right: 20%;
+        margin-top: 15px;
+        border: none;
+      }
+      .search-lab-icon{
+        font-size: 15px;
+      
+
+      }
+  }

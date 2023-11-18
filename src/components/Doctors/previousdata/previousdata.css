@@ -1,0 +1,251 @@
+.previous-datapdcvvroyal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 10px;
+  max-width: 1500px;
+  
+  background-color: #f9f9f9;
+}
+
+.previous-datapdcvvroyal p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.action-buttonspdcvvroyal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-buttonspdcvvroyal .action-buttonsbpdcvvroyal {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.action-buttonspdcvvroyal .action-buttonsbpdcvvroyal:hover {
+  background-color: #0056b3;
+}
+.prev-data-col{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* margin-left: 88px; */
+  /* margin-top: ;*/
+} 
+
+.vitalspdcvvroyal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.h2pdcvvroyaltop{
+  margin-right: 10px;
+}
+
+.vitalspdcvvroyal .h5pdcvvroyal {
+  flex: 1;
+  margin-right: 10px;
+  font-size: 20px;
+  font-size: 1.1rem;
+}
+.h5pdcvvroyal{
+  font-size: 1.1rem;
+}
+
+.vitalspdcvvroyal .ppdcvvroyal {
+  flex: 1;
+  margin: 0;
+  font-size: 18px;
+}
+
+.diagnosis-sectionpdcvvroyal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.diagnosis-sectionpdcvvroyal .inputpdcvvroyal[type="text"] {
+  width: 150px;
+  padding: 8px;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.tablepdcvvroyal {
+  width: 1000px;
+  border-collapse: collapse;
+  
+}
+
+.complaints-tablepdcvvroyal{
+  width: 1000px; 
+}
+
+.theadpdcvvroyal, .tbodypdcvvroyal {
+  border: 0px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.theadpdcvvroyal {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.trowpdcvvroyal:nth-child(even) {
+  background-color: #f2f2f2;
+
+}
+
+
+
+.additional-infopdcvvroyal {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.additional-infopdcvvroyal .ppdcvvroyal {
+  margin: 8px 0;
+}
+
+.case-container{
+/* width: 80%;   
+
+margin-left: 150px; */
+
+}
+
+.case-table{
+width: 100%;
+
+
+/* border: 1.5px solid #ccc; */
+cursor: pointer;
+border-width: 0px;
+
+}
+.prev-page1234{
+  margin-left: 40%;
+}
+.table-cell143{
+  padding: 10px 20px;
+  background-color: white;
+  border-width: 0px;
+  
+  
+  
+}
+
+.prev-data789{
+  background-color: white;
+}
+.online-button{
+  background-color: white;
+  border: 1px solid green;
+  color:black;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.online-button span{
+  color: #007bff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.newvisit-button{
+  background-color:green;
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold
+}
+.old-visit{
+  background-color: #4399f4;
+  color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.oldvisit-date{
+  color: red;
+}
+.consultation-detailes{
+  margin-top: 40px;
+}
+.two-containers-docks{
+display: flex;
+width: 100%;
+}
+.two-containers-columns-docks{
+display: flex;
+flex-direction: column;
+}
+.main-container{
+
+  margin-left: 7%;
+  margin-top: 6%;
+    width: 93%; 
+  
+  
+}
+.prev-data-col{
+
+  margin-top: 6%;
+  margin-left: 7%;
+  
+    
+  
+}
+.previous-prescription{
+  
+  margin-left: 25px;
+  padding: 5px;
+
+}
+.ppdcvvroyal span{
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+.patient-name21{
+  
+  margin-top: 0;
+  background-color:moccasin;
+  padding: 10px;
+  width: 110%;
+  
+  
+}
+.case-div143{
+
+padding-left: 20px!important;
+
+
+}
+.odd143{
+  background-color:#f2f2f2!important;
+}

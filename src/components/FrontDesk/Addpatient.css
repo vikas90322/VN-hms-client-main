@@ -1,0 +1,1004 @@
+.mandatory{
+  color: red;
+}
+.Addpatient-form {
+  margin-top: 5%;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+.t-patient {
+  text-align: center;
+}
+.top-content{
+  display: flex;
+}
+
+.p-name{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.p-details{
+  font-size: 25px;
+  font-weight: bold;
+  color: #3E6EA8;
+}
+.label-heading{
+  font-weight: bold;
+  margin-top: 1%;
+}
+.name-input{
+  width: 110%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+ .a-2row{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1%;
+ }
+ .gen-1{
+  display: flex;
+  flex-direction: column;
+ }
+ .p-gender{
+  width: 280%;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* font-size: 13px; */
+ }
+ .p-age{
+  flex-direction: column;
+  display: flex;
+  margin-left: 41%;
+ }
+ .p-age-input{
+  height: 32px;
+  width: 175%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .label-page{
+  font-weight: bold;
+ }
+ .p-m-no{
+  width: 109.8%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+
+ .a-3row{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1%;
+ }
+ .gen-2{
+  display: flex;
+  flex-direction: column;
+ }
+ .p-bgroup{
+  width: 219%;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .p-email{
+  display: flex;
+  flex-direction: column;
+  margin-left: 36%;
+ }
+ .label-pemail{
+  font-weight: bold;
+
+ }
+ .input-pemail{
+  height: 31px;
+  width: 173%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .a-4row{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1%;
+ }
+ .gen-3{
+  display: flex;
+  flex-direction: column;
+ }
+ .id-type{
+  width: 267%;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .p-idno{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40.2%;
+ }
+ .label-pidno{
+  font-weight: bold;
+
+ }
+ .input-pidno{
+  height: 32px;
+  width: 174%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+
+ .a-5row{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1%;
+ }
+ .gen-4{
+  display: flex;
+  flex-direction: column;
+ }
+ .p-occupation{
+  width: 193.2%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .p-income{
+  display: flex;
+  flex-direction: column;
+  margin-left: 33%;
+ }
+ .label-pincome{
+  font-weight: bold;
+
+ }
+ .input-pincome{
+  height: 30.5px;
+  width: 174%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .input-address{
+  width: 110%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .rows-ca{
+  display: flex;
+ }
+ .p-city{
+  display: flex;
+  flex-direction: column;
+ }
+ .input-city{
+  width: 193.2%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .p-area{
+  display: flex;
+  flex-direction: column;
+  margin-left: 33%;
+ }
+ .input-area{
+  height: 30.5px;
+  width: 174%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .input-refby{
+  width: 110%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+
+/* -------------------------------------------- */
+
+
+.s-name{
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  margin-left: 13%;
+}
+.s-details{
+  font-size: 25px;
+  font-weight: bold;
+  color: #3E6EA8;
+}
+.s-label-heading{
+  font-weight: bold;
+  margin-top: 1%;
+}
+.s-name-input{
+  width: 600px;
+  height: 29px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ .s-a-2row{
+  display: flex;
+  flex-direction: row; 
+ }
+ .s-gen-1{
+  display: flex;
+  flex-direction: column;
+ }
+ .s-gender{
+  width: 300px;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* font-size: 13px; */
+ }
+ .s-age{
+  flex-direction: column;
+  display: flex;
+  margin-left: 30px;   
+ }
+ .s-age-input{
+  height: 34px;
+  width: 270px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .s-label-page{
+  font-weight: bold;
+ }
+ .s-m-no{
+  width: 600px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+
+ .s-a-3row{
+  display: flex;
+  flex-direction: row; 
+ }
+ .s-gen-2{
+  display: flex;
+  flex-direction: column;
+ }
+ .s-bgroup{
+  width: 300px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .s-email{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+ }
+ .label-semail{
+  font-weight: bold;
+
+ }
+ .input-semail{
+  height: 31px;
+  width: 270px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .s-a-4row{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1%;
+ }
+ .s-gen-3{
+  display: flex;
+  flex-direction: column;
+ }
+ .s-id-type{
+  width: 300px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .s-idno{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+ }
+ .label-sidno{
+  font-weight: bold;
+
+ }
+ .input-sidno{
+  height: 32px;
+  width: 270px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+
+
+
+ .s-a-5row{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1%;
+ }
+ .s-gen-4{
+  display: flex;
+  flex-direction: column;
+ }
+ .s-occupation{
+  width: 293px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ .s-income{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+ }
+ .label-sincome{
+  font-weight: bold;
+
+ }
+ .input-sincome{
+  height: 32px;
+  width: 270px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+
+
+
+ .below-content{
+  margin-top: 20px;
+  margin-left: 15%;
+}
+.input-table-container-patient {
+  width: 80%;
+  padding: 20px 20px 20px 20px;
+ 
+  }
+  .input-table-content{
+      border-collapse: collapse;
+      width: 100%;
+      border-bottom: none;
+  }
+  .input-table-content th{
+      background-color: #3E6EA8;
+      color: white;
+  }
+  .input-table-content th,
+  .input-table-content td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  }
+  .select-service {
+      width: 90%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    .select-service-dname {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    .input-prize{
+      width: 92%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .input-discount{
+      width: 92%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .add-button1234{
+      background-color: #3E6EA8;
+      color: white;
+      border-radius: 4px;
+      border: none;
+      padding: 8px 30px;
+      cursor: pointer;
+      margin-left: 35px;
+      }
+      .pay-button{
+          background-color: #3E6EA8;
+          color: white;
+          border-radius: 4px;
+          border: none;
+          padding: 8px 15px;
+          cursor: pointer;
+          margin-top: 20px;
+      }
+      .input-group-n{
+          margin: 2% 0px 2% 0px;
+      }
+      .label-with-border12,.label-with-border12e{
+          font-size: 16px;
+          margin-left: 1px;
+          
+        }
+        .input-group-k{
+          display: flex;
+          align-items: center;
+        }
+        .input-group{
+          margin-top: 10px;
+        }
+        .input-fieldi-choose{
+          width: 250px;
+          height: 35px;
+          margin-left: 35px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          font-size: 15px;
+        }
+        .input-fieldrw-std{
+          width: 245px;
+          height: 31px;
+          margin-left: 32px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+        }
+        .input-fieldi-date{
+          width: 250px;
+          height: 35px;
+          margin-left: 13px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+        }
+        .input-fieldr-duration{
+          width: 255px;
+          height: 35px;
+          margin-left: 75px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+        }
+        .row9-g{
+          margin-top: 2%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+          
+     .time-inputs {
+      display: flex;
+      margin-left: 15px;
+      }
+  
+     .time-dropdown {
+      margin-right: 5px;
+      height: 30px;
+      width: 80px;
+      border-radius: 4px;
+      }
+      .button-groups{
+          margin-top: 4%;
+      }
+      .additional-form-borders {
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding-top: 10px;
+          width: 70%; 
+          box-sizing: border-box;
+          /* overflow-y: auto; */
+          }
+      .additional-form {
+          border: 1px solid #ccc;
+          padding: 20px;
+          margin-top: 10px;
+          margin-left: 6%;
+          flex: 0 0 32%;
+          box-sizing: border-box;
+          /* overflow-y: auto; */
+          }
+          .barcode-tnx-rty {
+              display: block;
+              font-weight: bold;
+            }
+            .selected-patient-form {
+              margin-top: 20px;
+              padding: 20px;
+              background-color: #f7f7f7;
+              border-radius: 4px;
+            }
+            .additional-form-container {
+            flex: 0 0 10%; 
+            padding: 20px;
+            box-sizing: border-box;
+            /* overflow-y: auto; */
+            }
+            .show-bill-container {
+            flex: 0 0 15%;
+            padding: 20px;
+            box-sizing: border-box;
+            /* overflow-y: auto; */
+            }
+            .create-bill-button{
+            background-color:#3E6EA8;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 8px 15px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-left: 10px;
+            
+            }
+            .back-button{
+            background-color:#3E6EA8;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 3px 15px;
+            cursor: pointer;
+            margin-right: 10px;
+            height: 30px;
+            }
+            .cont{
+              height: 30px;
+            }
+            
+            .total-section {
+            align-items: center;
+            margin-top: 20px;
+            box-sizing: border-box;
+            /* overflow-y: auto; */
+            }
+            
+            .total-value {
+            font-weight: bold;
+            margin-left: 10px;
+            }
+            
+            .input-field.email-input .input-field01{
+              margin-left: 10px;
+              padding-left: 10px;
+            }
+          
+          
+            .input-fieldg{
+              width: 210px;
+              height: 35px;
+              margin-left: 10px;
+            }
+           
+            .label-with-border120{
+              font-size: 16px;
+              margin-left: 10px;
+              
+            }
+          
+            .submittts{
+              background-color: #3E6EA8;
+              border: none;
+              border-radius: 5px;
+              margin-left: 5%;
+              color: white;
+              /* margin-top: 10px; */
+              margin-bottom: 20px;
+              padding: 10px 34px;
+              font-size: 15px;
+            }
+            .print-bill-button{
+              background-color: #3E6EA8;
+              border: none;
+              border-radius: 5px;
+              padding: 7px 21px;
+              margin-left: 5%;
+              color: white;
+            }
+            .delete-icon{
+              margin-left: 60px;
+            }
+            .input-time-select{
+              width: 17vw;
+              height: 35px;
+              font-size: 15px;
+              border-radius: 4px;
+              border: 1px solid #ccc;
+            }
+            .pa-paid-amount{
+              height: 30px;
+              width: 204px;
+              margin-left: 10px;
+            }
+
+ @media(max-width:768px){
+  .below-content{
+      margin-left: 0%;
+    }
+  .input-table-content{
+      width: 120%;
+  }
+  .input-table-content th,
+  .input-table-content td {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  }
+  .select-service {
+      width: 92%;
+      padding: 8px;
+    }
+    .select-service-dname {
+      width: 90%;
+      padding: 8px;
+    }
+    .input-prize{
+      width: 80%;
+      padding: 8px;
+    }
+    .input-discount{
+      width: 80%;
+      padding: 8px;
+    }
+    .add-button1234{
+      padding: 8px 20px;
+      cursor: pointer;
+      margin-left: 2px;
+      }
+ 
+
+  .top-content{
+      display: flex;
+      flex-direction: column;
+      /* row-gap: 5%; */
+    }
+    .p-name{
+      width: 90%;
+    }
+    .name-input{
+      width: 110%;
+    }
+     .p-gender{
+      width: 222%;
+     }
+     .p-age{
+      margin-left: 35%;
+     }
+     .p-age-input{
+      width: 152%;
+     }
+     .p-m-no{
+      width: 110%;
+     }
+     .p-bgroup{
+      width: 174%;
+     }
+     .p-email{
+      margin-left: 29%;
+     }
+     .input-pemail{
+      width: 151%;
+     }
+     .id-type{
+      width: 212%;
+     }
+     .p-idno{
+      margin-left: 34.5%;
+     }
+     .input-pidno{
+      width: 151%;
+     }
+     .p-occupation{
+      width: 154%;
+     }
+     .p-income{
+      margin-left: 26%;
+     }
+     .input-pincome{
+      width: 150%;
+     }
+     .input-address{
+      width: 110%;
+     }
+     .input-city{
+      width: 154%;
+     }
+     .p-area{
+      margin-left: 26%;
+     }
+     .input-area{
+      width: 150%;
+     }
+     .input-refby{
+      width: 110%;
+     }
+
+
+
+    .s-name{
+      margin-top: 10%;
+      margin-left: 0;
+    }
+    .s-name-input{
+      width: 500px;
+    }
+     .s-gender{
+      width: 235px;
+     }
+     .s-age{
+      margin-left: 30px;   
+     }
+     .s-age-input{
+      width: 235px;
+     }
+     .s-m-no{
+      width: 500px;
+     }
+     .s-bgroup{
+      width: 235px;
+     }
+     .s-email{
+      margin-left: 30px;
+     }
+     .input-semail{
+      width: 235px;
+     }
+     .s-id-type{
+      width: 235px;
+     }
+     .s-idno{
+      margin-left: 30px;
+     }
+     .input-sidno{
+      width: 235px;
+     }
+     .s-occupation{
+      width: 230px;
+     }
+     .s-income{
+      margin-left: 30px;
+     }
+     .input-sincome{
+      width: 233px;
+     }
+     .additional-form-borders {
+      width: 90%; 
+      margin-bottom: 30px;
+      }
+      .input-fieldr-duration{
+          margin-left: 60px;
+        }
+      .time-inputs {
+          margin-left: 12px;
+      }
+      .time-dropdown {
+          width: 80px;
+      }
+      .create-bill-button{
+         margin: 30px 0px;
+          }
+        
+                .label-with-border12,.label-with-border12e{
+                  font-size: 13px;
+                  margin-left: 0px;
+                }
+              
+        .back-button{
+      background-color:#3E6EA8;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      padding: 8px 15px;
+      cursor: pointer;
+      font-size: 13px;
+      margin-right: 10px;
+      }
+      .submittts{
+        /* margin-left: 430px; */
+        margin-left: 23px;
+        margin-bottom: 30px;
+        padding: 10px 35px;
+      }
+    
+      .delete-icon{
+          margin-left: 15px;
+        }
+        .input-time-select{
+          width: 46.3vw;
+          font-size: 13px;
+        }
+    
+ }
+
+
+ @media(max-width:425px){
+  .top-content{
+      display: flex;
+      flex-direction: column;
+      /* row-gap: 5%; */
+    }
+    .p-name{
+      width: 88%;
+    }
+    .name-input{
+      width: 110%;
+    }
+     .p-gender{
+      width: 200%;
+     }
+     .p-age{
+      margin-left: 35%;
+     }
+     .p-age-input{
+      width: 125%;
+     }
+     .p-m-no{
+      width: 110%;
+     }
+     .p-bgroup{
+      width: 160%;
+     }
+     .p-email{
+      margin-left: 29%;
+     }
+     .input-pemail{
+      width: 125%;
+     }
+     .id-type{
+      width: 194%;
+     }
+     .p-idno{
+      margin-left: 34.5%;
+     }
+     .input-pidno{
+      width: 125%;
+     }
+     .p-occupation{
+      width: 135%;
+     }
+     .p-income{
+      margin-left: 24%;
+     }
+     .input-pincome{
+      width: 125%;
+     }
+     .input-address{
+      width: 110%;
+     }
+     .input-city{
+      width: 135%;
+     }
+     .p-area{
+      margin-left: 24%;
+     }
+     .input-area{
+      width: 125%;
+     }
+     .input-refby{
+      width: 110%;
+     }
+
+     
+    .s-name-input{
+      width: 380px;
+    }
+     .s-gender{
+      width: 180px;
+     }
+     .s-age{
+      margin-left: 30px;   
+     }
+     .s-age-input{
+      width: 170px;
+     }
+     .s-m-no{
+      width: 380px;
+     }
+     .s-bgroup{
+      width: 180px;
+     }
+     .s-email{
+      margin-left: 30px;
+     }
+     .input-semail{
+      width: 170px;
+     }
+     .s-id-type{
+      width: 180px;
+     }
+     .s-idno{
+      margin-left: 30px;
+     }
+     .input-sidno{
+      width: 170px;
+     }
+     .s-occupation{
+      width: 175px;
+     }
+     .s-income{
+      margin-left: 30px;
+     }
+     .input-sincome{
+      width: 170px;
+     }
+     .input-table-content{
+      width: 110%;
+  }
+  .input-fieldi-choose{
+      width: 195px;
+      margin-left: 35px;
+    }
+    .input-fieldrw-std{
+      width: 190px;
+      margin-left: 32px;
+    }
+    .input-fieldi-date{
+      width: 195px;
+      margin-left: 15px;
+
+    }
+    .input-fieldr-duration{
+      width: 199px;
+      margin-left: 65px;
+      margin-top: 5%;
+    }
+    .time-inputs {
+      margin-left: 15px;
+      }
+  
+     .time-dropdown {
+      width: 62.5px;
+      }
+      .label-with-border12e{
+          font-size: 13px;
+          margin-left: 0px;
+        }
+    
+        .Addpatient-form{
+          overflow-x: hidden;
+        }
+    
+        .input-group{
+          margin-left: 10px;
+        }
+        .qiu{
+          margin-top: -15px;
+        
+        }
+    
+          .button-groups{
+            margin-left: 10px;
+            margin-top: 40px;
+          }
+          .submittts{
+            margin-left: 30px;
+            margin-bottom: 30px;
+            padding: 10px 30px;
+          }
+          .pay-button{
+              margin-left: 10px;
+          }
+          .select-service {
+              width: 92%;
+              padding: 6px;
+              font-size: 12px;
+            }
+            .select-service-dname {
+              width: 100%;
+              padding: 6px;
+              font-size: 12px;
+            }
+            .print-bill-button{
+               margin-left: 30px;
+               padding: 7px 17px;
+               margin-bottom: 30px;
+        }
+}

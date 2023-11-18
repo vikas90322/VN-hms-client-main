@@ -1,0 +1,71 @@
+/* editform.css */
+
+/* Overlay styles */
+.overlay14 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Popup styles */
+  .popup14sk14s {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 95%;
+    padding: 1%;
+    
+    
+  }
+  
+  /* Form styles */
+  .edit-form14 {
+    text-align: left;
+    margin-top: 21%;
+   
+    
+  }
+  
+  /* Form field styles */
+  
+  
+  .form-group14 label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .form-group14 input {
+    width:95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Button styles */
+  .button-group14 {
+    text-align: right;
+  }
+  
+  .button-group14 button {
+    padding: 10px 20px;
+    background-color: #3D50AE;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .button-group button14:hover {
+    background-color: #0056b3;
+  }
+  

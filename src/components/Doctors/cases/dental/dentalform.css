@@ -1,0 +1,189 @@
+.empid144consultation-form {
+ 
+
+  background-color:'';
+  margin-top: 1%;
+  padding: 40px;
+  /* border: 1.5px solid black; */
+  /* background-color: #f9f9f9; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+  position: sticky;
+ }
+ 
+ /* Form title */
+ .empid144mh2 {
+   font-size: 34px;
+   text-align: center;
+   margin-bottom: 0%;
+ }
+ .main-container566{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+ }
+ .empid144form{
+  color: black;
+  /* border: 1px solid black; */
+ }
+ 
+ .empid144label1{
+  font-size: 15px;
+   color: #03010f;
+   text-align: left;
+width: 185px;
+   font-weight: bold;
+   margin: 6px;
+   
+ }
+ .empid144inputs{
+  width: 100%;
+   resize: none;
+   background-color: '';
+   border-style: solid;
+   margin-bottom: 10px;
+   outline: none;
+   border-color: #03010f;
+   border: 1px;
+   border-bottom: 1.5px solid black;
+ }
+  
+  .empid144inputs23  {
+   width: 100%;
+   resize: none;
+   background-color: '';
+   border-style: solid;
+   margin-bottom: 10px;
+   outline: none;
+   border-color: #03010f;
+   border: 1px;
+   border-bottom: 1.5px solid black;
+ } 
+ 
+  .empid144inputs890{
+        /* width: 100%; */
+    /* border: #03010f; */
+    border-width: 1px;
+    /* background-color: transparent; */
+    border-color: #ccc;
+  }
+
+
+  .empid144medinput,
+ .empid144opinput,
+ .empid144yesinput,
+ .empid144noinput,
+ .empid144numinput {
+   display: block;
+   height: 69%;
+   width: 100%;
+   outline: none;
+   cursor: pointer;
+   border: none;
+   background-color:'';
+   resize: none;
+
+ } 
+ 
+ /* Gender select */
+
+ 
+ /* Additional info boxes */
+ .empid144additional-info {
+  margin-top: 1%;
+   display: flex;
+   justify-content: space-between;
+   border: 1.5px solid black;
+ 
+   border-radius: 5px;
+   
+ }
+ 
+ /* Individual info box styles */
+ .empid144box1,
+ .empid144box2
+  {
+   flex: 1;
+   /* padding: 10px; */
+   border-right: 1.5px solid black;
+   
+   margin-right: 10px;
+   color: #1d09ce;
+   
+ }
+ 
+ /* Checkbox container for Vaccination History */
+ .empid144-checkbox {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ /* Checkbox label styles */
+ .empid144-checkbox label {
+   display: flex;
+   align-items: center;
+   margin-right: 20px;
+ }
+ 
+ /* Submit button */
+ .empid144submitb {
+   align-items: center;
+   display: flex;
+   justify-content: flex-end;
+   
+   margin-top: 20px;
+   
+ }
+ 
+ .empid144subbuton1 {
+  padding: 10px 20px;
+  background-color: rgba(62, 110, 168, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right:2px ;
+  
+ }
+
+ .empid144nxtbuton {
+  padding: 10px 20px;
+  background-color: rgba(62, 110, 168, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right:4px ;
+ 
+}
+ .empid144subbuton1:hover,.empid144nxtbuton:hover {
+  background-color: rgb(14, 115, 239);
+ }
+ 
+ 
+ /* Styling for checkboxes and radio buttons */
+ input[type="checkbox"],
+ input[type="radio"] {
+   margin-right: 5px;
+ }
+ .empid144div{
+ display: inline-block;
+ width: 20%;
+ gap: 2%;
+ margin-left: 4%;
+
+  
+ }
+ .cvvroyaldentalmain{
+  margin-top: 7%;
+  margin-left: 9%;
+  width: 90%;
+ }
+ .button-containercvvroyaldental {
+  
+  display: flex;
+  justify-content: flex-start;
+  
+  
+}

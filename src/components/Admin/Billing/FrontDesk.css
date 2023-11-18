@@ -1,0 +1,54 @@
+.frhsk14{
+    padding-top: 0%;
+}
+.frtbsk14{
+    /* margin-left: 8%; */
+    width: 100%;
+}
+.frontpage-mainsk14{
+    width: 93%;
+    margin-left: 7%;
+}
+.heading6789{
+    padding-left: 26%;
+}
+.tr-class-bg{
+    background-color: #007bff;
+    border-style: none;
+}
+.sk14s2{
+    background-color:  #3e6eab;
+    color:white;
+}
+.frontdesk-billing-heading{
+    font-size: 2.5rem;
+}
+.front-desk-backarrow{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 5%;
+    padding: 1% 0;
+}
+@media only screen and (max-width: 427px){
+    .front-desk-backarrow{
+        margin-top: 20%;
+        font-size: 2rem;
+        /* margin-top: 30%; */
+        display: flex;
+        justify-content: center;
+        margin-left:12%;
+    }
+    .frtbsk14{
+      
+        font-size: 0.56rem;
+        width: 75%;
+        margin-left: 14%;
+    }
+    .frontdesk-billing-heading{
+        margin-top: 15px;
+        font-size: 1rem;
+    }
+    .custom-pagination-arrow13-1{
+        /* margin-left: 16%; */
+    }
+}

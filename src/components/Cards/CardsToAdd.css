@@ -1,0 +1,80 @@
+.card-below {
+  border-radius: 8px;
+ 
+}
+
+.card-primary-below {
+  border-right: 4px solid #007bff;
+  background-color: #A8001F;
+  height: 150px;
+}
+
+.card-success-below {
+  border-right: 4px solid #28a745;
+  color: #28a745;
+}
+
+.card-info-below {
+  border-right: 4px solid #17a2b8;
+  color: #17a2b8;
+}
+
+.card-danger-below {
+  border-left: 4px solid #1260cc;
+  background-color: #3a9bdc;
+  color: #fff;
+}
+
+.card-body-below {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height:150px;
+  width: 30%;
+}
+
+.card-icon-below {
+  margin-right: 5px;
+  padding-left: 30%;
+}
+
+.icon-below {
+  font-size: 3rem;
+  color: white;
+
+}
+.income-below{
+  font-size: 2.5rem;
+  color: #fff;
+
+}
+
+.card-content-below {
+  text-align: center;
+  margin-left: 90px;
+  color: white;
+}
+
+.card-value-below {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: red;
+  
+}
+
+.card-label-below {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #6c757d;
+}
+.link-below{
+  text-decoration: none;
+}
+
+ .container-fluid-below{
+  width: 183%;
+margin-top: -560px;
+ margin-left: -5px;
+  height:150%
+} 

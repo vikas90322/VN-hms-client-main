@@ -1,0 +1,125 @@
+/* Table.css// */
+.data-table3 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-table3 th {
+    border: 1px solid #f2f2f2;
+    padding: 12px 16px;
+    text-align: left;
+    /* background-color: #f2f2f2; */
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* .data-table3 tr:nth-child(odd) td {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table3 tr:nth-child(even) td {
+    background-color: #f0f7fb;
+  } */
+  
+  .data-table3 td {
+    border-top: 1px solid #f2f2f2;
+    padding: 12px 16px;
+    text-align: left;
+    color: #555;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* .data-table3 tr:hover td {
+    background-color: #e0e0e0;
+  } */
+  /* .data-table3 tr:nth-child(even) td {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table3 tr:nth-child(odd) td {
+    background-color: #e3f2fd;
+  }
+   */
+  
+  .delete-btn {
+    color: #777;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .delete-btn:hover {
+    color: darkred;
+  }
+  
+  @media (max-width: 768px) {
+    .data-table3 {
+      box-shadow: none;
+      border: none;
+    }
+  
+    .data-table3 th,
+    .data-table3 td {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .delete-btn {
+      font-size: 16px;
+    }
+    /* ... rest of your CSS ... */
+
+.data-table3 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-table3 th {
+    border: 1px solid #f2f2f2;
+    padding: 12px 16px;
+    text-align: left;
+    /* background-color: #f2f2f2; */
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .data-table3 td {
+    border-top: 1px solid #f2f2f2;
+    padding: 12px 16px;
+    text-align: left;
+    color: #555;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .data-table3 tr:hover td {
+    background-color: #e0e0e0;
+  }
+  
+  /* .data-table3 tr:nth-child(2n) td {
+    background-color: #f9f9f9; 
+  }
+  
+  .data-table3 tr:nth-child(2n + 1) td {
+    background-color: #e3f2fd; 
+  } */
+  
+  .delete-btn {
+    color: #777;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .delete-btn:hover {
+    color: darkred;
+  }
+  
+  @media (max-width: 768px) {
+    /* ... your responsive styling ... */
+  }
+  
+  }

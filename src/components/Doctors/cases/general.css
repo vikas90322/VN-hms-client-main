@@ -1,0 +1,176 @@
+.buttons-and-formcvvroyal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 7%;
+  margin-top: 7%;
+  justify-content: flex-end;
+  position: relative;
+}
+
+
+.buttons-and-formcvvroyal2 {
+  width: 90%;
+  display: inline-block;
+  background-color:'';
+  padding: 25px 50px;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+
+.containercvvroyaldiabetis {
+  display: inline-block;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.labelcvvroyaldiabetis {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.radio-buttonscvvroyaldiabetis {
+  direction: row;
+  gap: 10px;
+}
+
+.textareacvvroyaldiabetis {
+  width: 96%;
+  height: 40%;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ 
+  padding: 5px;
+}
+
+.buttonscvvroyaldiabetis {
+  background-color: rgba(62, 110, 168, 1);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 0px;
+}
+
+.buttonscvvroyaldiabetis:hover {
+  background-color: #0056b3;
+}
+
+.buttonsnextcvvroyaldiabetis {
+  background-color: #28a745;
+  margin-left: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonsnextcvvroyaldiabetis:hover {
+  background-color: #1a8320;
+}
+
+.health-formcvvroyaldiabetis {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-containercvvroyaldiabetis {
+  margin-bottom: 20px;
+}
+
+.button-containercvvroyal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.button-generalcvvroyal,
+.button-diabetescvvroyal,
+.button-detailed-diabetescvvroyal {
+  background: #3D50AE;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 59px;
+  cursor: pointer;
+  margin-left: 45px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button-generalcvvroyal:hover {
+  background-color: white;
+  color: black;
+}
+
+.button-generalcvvroyal.active,
+.button-diabetescvvroyal.active {
+  background-color: white;
+  color: black;
+}
+/* Styles for tablet screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .buttons-and-formcvvroyal {
+    margin-left: 5%;
+  }
+  .buttons-and-formcvvroyal2 {
+    width: 85%;
+    padding: 20px 40px;
+  }
+  .containercvvroyaldiabetis {
+    width: 25%;
+  }
+  .buttonscvvroyaldiabetis {
+    padding: 8px 16px;
+  }
+  .buttonsnextcvvroyaldiabetis {
+    padding: 8px 16px;
+  }
+}
+
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+  .buttons-and-formcvvroyal {
+    margin-left: 2%;
+    margin-top: 20%;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons-and-formcvvroyal2 {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .containercvvroyaldiabetis {
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 3%;
+  }
+
+  .button-generalcvvroyal,
+.button-diabetescvvroyal,
+.button-detailed-diabetescvvroyal{
+  width: 40%;
+
+  margin: 1%;
+  display: inline-block;
+ 
+}
+}
+
+
+
+
+
+

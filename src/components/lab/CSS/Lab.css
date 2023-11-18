@@ -1,0 +1,43 @@
+.table-2 {
+  width:100%;
+  border-collapse: collapse;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.table-2 th,.table-2 td {
+  border: none;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-2 .first-th-2 {
+  padding-left: 30px; 
+}
+
+.button-2 {
+  background-color: blue; 
+  color: white; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+ .button-2:hover {
+  background-color:lightblue; 
+  color: black; 
+  cursor: pointer; 
+}
+.View-2 {
+  color: navy;
+}
+.View1-2{
+  color: navy;
+}
+
+.View-2:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.View1-2:hover {
+  color:lightblue;
+  cursor: pointer;
+}

@@ -1,0 +1,146 @@
+/* Common styles for all screen sizes */
+
+.diabetes-formdbfcvvroyal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 7%;
+  margin-top: 6%;
+  width: 93%;
+}
+
+.containerdbfcvvroyal {
+  margin-left: 50px;
+  width: 40%;
+  display: inline-block;
+}
+
+.diabetesmain-cvvroyal {
+  background-color:'';
+  width: 90%;
+  border-radius: 5px;
+  padding: 20px 0px;
+  margin-left: 3%;
+  display: inline-block;
+}
+
+.labeldbfcvvroyal {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.textareadbfcvvroyal {
+  width: 90%;
+  height: fit-content;
+  resize: none;
+  border-radius: 5px;
+  
+}
+
+.button-containerdbfcvvroyal {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.save-buttondbfcvvroyal {
+  background-color: rgba(62, 110, 168, 1);
+  margin-right: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-buttondbfcvvroyal {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-buttondbfcvvroyal:hover,
+.next-buttondbfcvvroyal:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+
+/* Styles for desktop screens */
+@media (min-width: 1024px) {
+  .containerdbfcvvroyal {
+    width: 40%;
+    margin-left: 50px;
+  }
+
+  .button-containerdbfcvvroyal {
+    justify-content: flex-end;
+  }
+}
+
+/* Styles for tablet screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .diabetes-formdbfcvvroyal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 7%;
+    margin-top: 6%;
+    width: 93%;
+  }
+
+  .containerdbfcvvroyal {
+    width: 80%;
+    margin-left: 7%;
+  }
+
+  .button-containerdbfcvvroyal {
+    justify-content: center;
+  }
+
+  .save-buttondbfcvvroyal,
+  .next-buttondbfcvvroyal {
+    width: 50%;
+    margin-right: 0;
+  }
+}
+
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+  .diabetes-formdbfcvvroyal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 6%;
+    width: 90%;
+  }
+
+  .containerdbfcvvroyal {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .button-containerdbfcvvroyal {
+    justify-content: center;
+  }
+
+  .save-buttondbfcvvroyal,
+  .next-buttondbfcvvroyal {
+    width: 100%;
+    margin-right: 0;
+  }
+}

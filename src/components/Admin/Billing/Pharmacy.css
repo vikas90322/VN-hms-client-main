@@ -1,0 +1,75 @@
+/* Updated Pharmacy.css */
+.pharma-container123 {
+  width: 93%;
+  margin-left: 7%;
+  text-align: center; /* Center-align the entire table */
+}
+
+.sk14-arrows143 {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.tr-class-bg {
+  background-color:#3e6eab !important; /* Background color for table header */
+  color: white; /* Text color for table header */
+  font-weight: bold; /* Font weight for table header */
+}
+
+.sk14s {
+  padding: 10px;
+  /* background-color: #007bff; */
+  background-color: #3e6eab;
+  color: white;
+  font-weight: bold;
+  text-align: center; /* Center-align the table cell contents */
+}
+
+.phtbsk14 tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.phtbsk14 tbody tr:hover {
+  background-color: #cce5ff; /* Hovered row background color */
+}
+.pharmacy-bill-heading{
+  font-size: 2.5rem;
+}
+.pharmacy-back-arrow{
+  margin-top: 5%;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 427px){
+  .pharmacy-back-arrow{
+    font-size: 1rem;
+    margin-top: 20%;
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+  }
+  .pharmacy-bill-heading{
+    font-size: 1.1rem;
+    margin-top: 5%;
+  }
+  .admin-pharmacy-table{
+    margin-left: 15%;
+    width: 83%;
+    font-size: 0.6rem;
+    overflow-x: scroll;
+    height: auto;
+    display: block;
+    border: none;
+  }
+  .custom-pagination-arrow13 li{
+    margin-left: 30%;
+    font-size: 1rem;
+  }
+  .tr-class-bg{
+    font-size: 0.6rem;
+  }
+  .sk14s{
+    font-size: 0.6rem;
+  }
+}

@@ -1,0 +1,96 @@
+.prescription-container147 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    margin-left: 20%;
+    margin-bottom: 15px;
+    box-shadow: inset;
+  }
+  
+  .prescription-table147 {
+    margin-left: -15%;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 9%;
+  }
+  
+  .date-cell147 {
+    width: 150px;
+    margin-left: 5px;
+    font-size: 1rem;
+    border: 2px solid #0b0808;
+    text-align: center;
+  }
+  
+  .treatment-cell147 {
+    width: 400px;
+    border: 2px solid #0b0808;
+    text-align: center;
+  }
+  
+  .signature-cell147 {
+    width: 250px;
+    border: 2px solid #0b0808;
+    text-align: center;
+  }
+  
+  .input-field147 {
+    width: 98%;
+    padding: 4px;
+    border: none;
+    height: auto;
+    resize: none;
+    outline: none;
+  }
+  
+  .bordered-cell147 {
+    border: 2px solid #0b0808;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+  }
+  .button-submit456{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-left: 35%;
+  }
+  
+  .submit-button147 {
+    width: 100px;
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    background-color: rgba(62, 110, 168, 0.70);
+    margin-top: 1%;
+    margin-left: 62%;
+    border-width: 0px;
+  }
+  
+  @media print {
+    .input-field147 {
+      height: 80vh !important;
+      padding-top: 20px;
+    }
+  
+    
+  
+    body {
+      height: 100vh;
+      margin: 0;
+    }
+  
+    /* .prescription-container147 {
+      max-height: 90vh;
+    }
+   */
+    .submit-button147 {
+      display: none;
+    }
+  }

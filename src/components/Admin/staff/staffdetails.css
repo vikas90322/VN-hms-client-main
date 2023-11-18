@@ -1,0 +1,120 @@
+.staff-details-container14 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .staff-details-container14 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* table {
+    width: 100%;
+    border-collapse: collapse;
+  } */
+  
+  .thead-sk14 {
+    background-color: #1745a8;
+  }
+  
+  th, sk14s {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .sktr-14{
+    background-color: rgb(30, 85, 186);
+    color: white;
+    width: 100%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .main-container123{
+    width: 70%;
+    margin-left: 8%;
+  }
+  .sk14s {
+   background-color: #4e7baf; 
+   color: white;
+    /* color: rgba(250, 250, 250, 0.918); */
+    height: 40px;
+    font-size: 1.1rem;
+    padding: 10px;
+    min-width: 0 !important;
+    
+  }
+  .fetch-data14{
+    /* padding: 30px;
+     padding-top: 0%;
+    margin-left: 1%;  */
+    
+  }
+  .staff-details-table{
+    border-style: solid;
+    border-width: 1px;
+    width: 100% !important;
+    /* background-color: #cfccc7; */
+    /* margin-left: 4%; */
+  }
+  .head14sk{
+    text-align: center;
+    font-size: xx-large;
+  }
+  .sk14bsk14{
+    background-color:  #4e7baf;
+    color: white;
+    border-width: 0px;
+    padding: 8px;
+    /* border-radius: 6px; */
+  }
+  
+.sk14-arrows14s {
+  padding-top: 6%;
+  margin-left: -77%;
+  font-size: 50px;
+  color: #4e7baf;
+}
+.staff-details-heading{
+  font-size: 2.5rem;
+}
+.back-arrow{
+  font-size: 2rem;
+ display: flex;
+ margin-top: 5%;
+ align-items: center;
+}
+
+@media only screen and (max-width: 427px) {
+  .main-container123{
+    width: 78%;
+    margin-left: 20%;
+  }
+  .staff-details-table{
+    width: 80%;
+    overflow-x: scroll;
+    height: auto;
+    display: block;
+  }
+  .staffdetails-td{
+    font-size: 0.6rem;
+  }
+  .negation-1{
+    width: 20%;
+    margin-left: 25%;
+  }
+  .staff-details-heading{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 11%;
+    margin-left:-30px;
+  }
+  .sk14-arrows1433{
+    font-size: 1rem;
+  }
+ }
+ 

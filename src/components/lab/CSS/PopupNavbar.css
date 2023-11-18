@@ -1,0 +1,65 @@
+.patient-right_1 {
+    text-align: right;
+    padding: 7px;
+    background-color:#3D50AE;
+    color: #fff;
+    
+  }
+  
+  .patient-right_1 nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+/* .patient-right_1 nav ul li.active a {
+  background-color: #fff;
+  color: navy; 
+} */
+  
+  .patient-right_1 nav ul li {
+    margin: -38px 18px;
+    display: inline-block;
+  }
+  
+  .patient-right_1 nav ul li a {
+    text-decoration: none;
+    color: #fff; /* You can adjust the color as needed */
+  }
+  .close-popup-button-Tj_1{
+    background:white ;
+    float: right;
+  
+ 
+    }
+    @media (max-width:100%) {
+      .patient-right_1 {
+        justify-content: center;
+      }
+    
+      .popup-button_1 {
+        margin-top: 1rem;
+      }
+    
+      .popup-content_1 {
+        width: 100%;
+    
+      }
+    
+      .close-popup-button-Tj_1 {
+        font-size: 1rem;
+        top: 0.25rem;
+        right: 0.25rem;
+      }
+    }
+    
+    @media (max-width: 100%) {
+      .popup-content_1 {
+
+        width: 100%;
+        height:100%;
+      }
+  
+  
+    }

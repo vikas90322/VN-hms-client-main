@@ -1,0 +1,186 @@
+/* Button Styles */
+.button-container14 {
+  text-align: center;
+padding-top: 4%;
+margin-top: -45px;
+z-index: 200;
+}
+
+.add-button14,
+.view-button14 {
+  background-color: rgb(6, 154, 48);
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  /* margin-top: 100px; */
+  border-width: 0px;
+  margin: 15px;
+  color: aliceblue;
+  font-size: 1.4rem;
+}
+.add-button14{
+  background-color: rgb(68, 68, 224);
+}
+.add-button14:hover{
+  background-color: rgb(127, 127, 224);
+}
+.view-button14{
+   background-color: #078345;
+}
+.view-button14:hover{
+  background-color: #4ba176;
+}
+
+/* Popup Styles */
+.popup14 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.popup-content14 {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  padding-left: 40px;
+  border-radius: 8px;
+  width: 50%;
+  /* max-width: 600px; */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  max-height: auto;
+  overflow-y: auto;
+  margin-top: -7.5%;
+}
+
+.close-button14 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Form Styles */
+.doctor-form14 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.doctor-heading14 {
+  margin-bottom: 20px;
+  font-size: 2.1rem;
+  text-align: center;
+  
+}
+
+.doctor-form-group14 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.doctor-form-group14 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+.doctor-form-control14,
+.doctor-text-area14 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.doctor-form-dropdownl14{
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   background-color: #fff;
+}
+
+.doctor-form-control14:focus,
+.doctor-text-area14:focus,
+.doctor-form-group14 select:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.doctor-form-group14 span {
+  color: red;
+  margin-left: 5px;
+}
+
+.doctor-form-group14.center {
+  text-align: center;
+}
+
+
+.submit-button14{
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: white;
+  border: 0PX;
+  
+  width: 100px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: rgb(46, 49, 221);
+  
+}
+.sk14shead{
+  /* background-image: url(staff1.jpg); */
+  height: 100vh;
+  padding-top: 5%;
+  margin-left: 70px;
+}
+.sk14-arrows14s {
+  padding-top: 6%;
+ 
+  font-size: 50px;
+}
+.addstaff-image{
+  margin: 0 10%;
+  height: 32vw;
+  width: 80%;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 427px) {
+  .sk14shead{
+    /* background-image: url(staff1.jpg); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 5%;
+    margin-left: 70px;
+    margin-top: 17%;
+  }
+  .popup-content14{
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-height: auto;
+    overflow-y: auto;
+    top: -28%;
+    margin-left: 10%;
+  }
+  .addstaff-image{
+    height: 60vw;
+  }
+ 
+ }
+

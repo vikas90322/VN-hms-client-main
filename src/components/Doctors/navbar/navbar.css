@@ -1,0 +1,142 @@
+/* navBar.css */
+.navbar-doctor {
+    width: 100%;
+    /* height: 10%; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 0px solid rgba(0, 0, 0, 0.30);
+      background: #3D50AE;
+
+      padding: 5px ;
+      /* margin-bottom: 35px; */
+    /* box-shadow: #f9f9f9; */
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+   
+    }
+    .doc-link-nav{
+      text-decoration: none;
+      color: white;
+    }
+      
+    
+    .left {
+      display: flex;
+      align-items: center;
+      width: 80%;
+    }
+    
+    .logo {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-right: 40px;
+      font-family: 'Times New Roman', Times, serif;
+      color: gold;
+      /* margin-bottom: 6px; */
+      text-align: center;
+      padding-left: 14px;
+    }
+    
+    .nav-item {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    
+    .icon-docks {
+     
+font-family: Inria Serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .icon-add{
+      margin-right: 10px;
+      padding-top: 3px;
+      font-size: 28px;
+    }
+    .icon-profile{
+      margin-right: 10px;
+      padding-top: 3px;
+      font-size: 35px;
+    }
+    
+    .dropdown {
+      position: relative;
+    }
+    
+    .dropdown-content {
+      position: relative;
+      background-color: #f9f9f9;
+      min-width: 150px;
+      display: none;
+      padding: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .right {
+      display: flex;
+      align-items: center;
+    }
+    
+    .search-bar-doc {
+      padding: 8px;
+      height: 35px;
+      width: 200px;
+      border-radius: 6px;
+      margin-right: 20px;
+      border-width:0px;
+      border-style:none;
+      
+      background-color: #f9fafc;
+    }
+    
+    .dots-box {
+      position: relative;
+      margin-right: 20px;
+    }
+    
+    .dots-icon {
+      cursor: pointer;
+      /* margin-right: 10px; */
+      padding-top: 3px;
+      font-size: 30px;
+    }
+    
+    .dots-content {
+      position: relative;
+      top: 100%;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 150px;
+      display: none;
+      padding: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dots-box:hover .dots-content {
+      display: block;
+    }
+  
+    /* navBar.css */
+  .appointment1{
+    width: 42.903px;
+height: 38px;
+flex-shrink: 0;
+  }
+  @media only screen and (max-width: 425px){
+    .navbar-doctor{
+      width: 100%;
+    }
+    .icon-profile{
+      float: left;
+    }
+  }

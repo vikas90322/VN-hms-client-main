@@ -1,0 +1,31 @@
+.heading-a3_3 {
+    align-items: center;
+    color: #5b85f1;
+    margin-left: 500px;
+  }
+  
+  /* .foot-hd-3_3{
+      color:white
+    } */
+  
+  .popup-table-3_3 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .popup-table-3_3 th,
+  .popup-table-3_3 td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* .popup-table-3_3 th {
+    background-color: #f2f2f2;
+  } */
+  
+  .popup-table-3_3 tr:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+  }
