@@ -5,6 +5,8 @@ import AppointmentSidebar from "./AppointmentSidebar";
 import axios from "axios";
 import EditAppointment from "./EditAppointment";
 import PatientNav from "./PatientNav";
+import { Link } from "react-router-dom";
+import { FaArrowCircleLeft } from "react-icons/fa";
 
 const patientIdLower = localStorage.getItem("selectedrecPatientId");
 const patientId = patientIdLower ? patientIdLower.toUpperCase() : "";
@@ -83,13 +85,14 @@ const Appointment = () => {
   return (
     <>
       <PatientNav />
-      <AppointmentSidebar />
-      <div style={{ display: "flex" }}>
-        <div className="container_6">
-          <div className="btn_table_6">
-            <br/>
-            <table className="appointments-table_6">
-              <thead className="appointmenthead20">
+     
+      <Link to="/Patient" >
+            <FaArrowCircleLeft style={{fontSize:'2em'}} />
+          </Link>
+       
+             
+            <table className="Appointment-table">
+              <thead >
               <tr >
                   <th>Date</th>
                   <th>Appointment Time</th>
@@ -128,9 +131,8 @@ const Appointment = () => {
             {editingAppointment && (
               <EditAppointment appointment={editingAppointment} onSave={handleSave} onCancel={handleCancelEdit} />
             )}
-          </div>
-        </div>
-      </div>
+        
+      
     </>
   );
 };

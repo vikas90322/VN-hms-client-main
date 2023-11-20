@@ -191,11 +191,13 @@ const BillingForm = () => {
   return (
     <div>
       <PatientNav />
-      <div className="popup-overlay-a3_3">
-        <div className="popup-a3">
-          <div className="popup-a3_3">
-            <h1 className="heading-a3_3">Total Due: ₹{totalDue}</h1>
-            <table className="popup-table-3_3">
+     
+          <br />
+            <h1 style={{textAlign:'center'}} >Total Due: ₹{totalDue}</h1>
+              
+              <br />
+
+            <table className="Billstable" style={{width:'96%',margin:'auto'}}>
               <thead>
                 <tr>
                   <th>Date</th>
@@ -252,9 +254,8 @@ const BillingForm = () => {
               </tbody>
             </table>
           </div>
-        </div>
-      </div>
-    </div>
+        
+     
   );
 };
 

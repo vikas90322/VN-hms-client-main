@@ -88,14 +88,17 @@ const VisitTable = () => {
     };
   
     fetchAppointments();
-  }, [/*patientId*/]);
+  }, [/patientId/]);
   return (
     <>
       <PatientNav />
       <div>
+        <br/>
         <h1>&nbsp;&nbsp;&nbsp;&nbsp;Patient visits</h1>
-        <table className="table-2" style={{ border: "none" }}>
-          <thead>
+        <br/>
+        <br/>
+        <table className="Visit1" style={{width:'95%' , margin:'auto', top:'-1.5em',position:'relative'}} >
+          <thead style={{backgroundColor:'#9b8bf4',color:'white'}}>
             <tr>
               <th className="first-th-2">Date</th>
               <th>View</th>

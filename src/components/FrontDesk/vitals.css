@@ -9,7 +9,7 @@
   flex-grow: 1;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  
 }
 .popup-close-button {
   font-size: 20px;
@@ -23,13 +23,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f5f5f5;
+ 
   padding: 10px;
 }
 .popup1235 {
-  padding: 20px;
-  width: 80%; 
-  margin: 0 auto; 
+ 
+  width: 100%; 
+}
+.popup1235 Link{
+  float: left;
+}
+.popup-header-container{
+  width: 85%;
+  margin: auto;
+  border: 1px gray solid;
+  padding: 1.5em;
+  position: relative;
+  top: -2em;
 }
 .popup-content {
   margin-top: 10px;
@@ -47,8 +57,8 @@
 }
 .input-grid input {
   width: 100%;
-  padding: 10px -1px;
-  border: 1.5px solid #070707;
+ padding: 2.5%;
+  border: 1px solid #070707;
   border-radius: 4px;
 }
 .popup-content button {

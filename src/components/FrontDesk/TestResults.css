@@ -51,7 +51,12 @@
   align-items: center;
   justify-content:space-evenly;
 }
-
+.testresult-table{
+  width: 90%;
+  position: relative;
+  margin: auto;
+  top:-2em;
+}
 .auto-calendar-label {
   display: flex;
   align-items: center;

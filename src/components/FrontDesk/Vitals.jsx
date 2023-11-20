@@ -270,71 +270,73 @@ const Vitals = () => {
         </Link>
             {patientData ? (
         <>
-        <div className="popup-header">
+       <div className="popup-header-container">
+       <div className="popup-header">
       
-          <h2>  {patientData.name}'s Vitals</h2>
-          <h2>{id}</h2>
-          
-             
-            </div>
-            <hr />
-            <div className="popup-content">
-              <div className="input-grid">
-              <label >
-                BP(mmHg):<br />
-                <input type="text" name="bp" value={vitals.bp} onChange={handleVitalsChange} />
-              </label>
-                <label>
-                  Pulse(bpm):
-                  <input type="text" name="sugar" value={vitals.sugar} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Height(cm):
-                  <input type="text" name="height" value={vitals.height} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Weight(kg):
-                  <input type="text" name="weight" value={vitals.weight} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Temperature(F):
-                  <input type="text" name="temperature" value={vitals.temperature} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  SPO2(%):
-                  <input type="text" name="spo2" value={vitals.spo2} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Pallor():
-                  <input type="text" name="pallor" value={vitals.pallor} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Edema():
-                  <input type="text" name="edema" value={vitals.edema} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Lcterus():
-                  <input type="text" name="lcterus" value={vitals.lcterus} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Lymphadenopathy():
-                  <input type="text" name="lymphadenopathy" value={vitals.lymphadenopathy} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Ciubbing():
-                  <input type="text" name="ciubbing" value={vitals.ciubbing} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  Cyanosis():
-                  <input type="text" name="cyanosis" value={vitals.cyanosis} onChange={handleVitalsChange} />
-                </label>
-                <label>
-                  JVP():
-                  <input type="text" name="jvp" value={vitals.jvp} onChange={handleVitalsChange} />
-                </label>
-              </div>
-              <button onClick={handleSave}>Save</button>
-            </div>
+      <h2>  {patientData.name}'s Vitals</h2>
+      <h2>{id}</h2>
+      
+         
+        </div>
+        <hr />
+        <div className="popup-content">
+          <div className="input-grid">
+          <label >
+            BP(mmHg):<br />
+            <input type="text" name="bp" value={vitals.bp} onChange={handleVitalsChange} />
+          </label>
+            <label>
+              Pulse(bpm):
+              <input type="text" name="sugar" value={vitals.sugar} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Height(cm):
+              <input type="text" name="height" value={vitals.height} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Weight(kg):
+              <input type="text" name="weight" value={vitals.weight} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Temperature(F):
+              <input type="text" name="temperature" value={vitals.temperature} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              SPO2(%):
+              <input type="text" name="spo2" value={vitals.spo2} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Pallor():
+              <input type="text" name="pallor" value={vitals.pallor} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Edema():
+              <input type="text" name="edema" value={vitals.edema} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Lcterus():
+              <input type="text" name="lcterus" value={vitals.lcterus} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Lymphadenopathy():
+              <input type="text" name="lymphadenopathy" value={vitals.lymphadenopathy} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Ciubbing():
+              <input type="text" name="ciubbing" value={vitals.ciubbing} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              Cyanosis():
+              <input type="text" name="cyanosis" value={vitals.cyanosis} onChange={handleVitalsChange} />
+            </label>
+            <label>
+              JVP():
+              <input type="text" name="jvp" value={vitals.jvp} onChange={handleVitalsChange} />
+            </label>
+          </div>
+          <button onClick={handleSave}>Save</button>
+        </div>
+       </div>
           
         </>
         ) : (

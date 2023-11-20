@@ -5,11 +5,10 @@
   max-height: calc(100vh - 50px); 
   /* overflow-y: auto; */
   position: relative;
-  background-color: #f7f7f7;
   padding: 10px;
   }
   .patienttable20 {
-    font-family: "Inria Serif";
+    
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #000;
@@ -22,7 +21,6 @@
   .headcolor1 {
     position: sticky;
     top: 4px; 
-    background-color: #3e6eab;
     color: #f7f7f7;
     z-index: 1; 
   }
@@ -30,7 +28,7 @@
   .headcolor1 th{
     font-family: "Inria Serif";
     width:auto;
-      background-color: #3E6EAB;
+      background-color: #9b8bf4;
       color: #f7f7f7;
     
     }
@@ -41,6 +39,11 @@
   }
   .pstatus{
     color:rgb(49, 35, 252)
+  }
+  .SelectPatient{
+    width: 90%;
+    padding: 2%;
+    margin-left: .7em;
   }
 
   @media (max-width:425px){

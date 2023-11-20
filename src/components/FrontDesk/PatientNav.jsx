@@ -31,7 +31,7 @@ function PatientNav() {
 
   return (
     <>
-      <div className="popup-overlay-23" style={{backgroundColor:"#3E6EAB",fontFamily:"Inria Serif",height:"60px", position: "sticky",}}>
+      <div className="popup-overlay-23" style={{backgroundColor:"#9b8bf4",height:"60px", position: "sticky",}}>
       
         <div
           className={`popup-content_95 ${isModalOpen ? "center-content" : ""}`}
@@ -43,41 +43,39 @@ function PatientNav() {
                 <span style={{marginRight:"400px"}}>
               <Link to="/Homepage" className="doc-link-nav">
               {" "}
-              <img src={jms} alt="" style={{ width: '50px', height: '35px',color:"white"}} /> 
+              {/* <img src={jms} alt="" style={{ width: '50px', height: '35px',color:"white"}} />  */}
             </Link></span>
-                <li style={{color:"white"}}>Patient Name: {patientData.name}</li>
+                <li style={{color:"white"}}><span className="patientapp1">Patient Name:</span> {patientData.name}</li>
                 <li>
                   <a href="/Appointment">
-                    <BiSolidUserRectangle /> Appointments
+                    <BiSolidUserRectangle /> <span className="patientapp">Appointments</span>
                   </a>
                 </li>
                 <li>
                   <a href="/BillForm">
-                    <AiOutlineBars /> Bills
+                    <AiOutlineBars /> <span className="patientapp">Bills</span>
                   </a>
                 </li>
                 <li>
                   <a href="/PaidPatient">
-                    <LuCreditCard /> paid
+                    <LuCreditCard /> <span className="patientapp">paid</span>
                   </a>
                 </li>
                 <li>
                   <a href="/PatientVisit">
-                    <BiSolidUser /> visits
+                    <BiSolidUser /><span className="patientapp"> visits</span>
                   </a>
                 </li>
                 <li>
                   <a href="/PatientEdit">
-                    <MdEdit /> Edit
+                    <MdEdit /> <span className="patientapp">Edit</span>
                   </a>
                 </li>
               </ul>
             </nav>
           </div>
 
-          <Link to="/Patient">
-            <FaArrowCircleLeft />
-          </Link>
+        
         </div>
       </div>
     </>

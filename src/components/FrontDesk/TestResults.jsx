@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { useParams } from 'react-router-dom';
-
+import './TestResults.css';
 import Navbar from "./Navbar23";
 
 import { FaArrowCircleLeft } from "react-icons/fa";
@@ -51,12 +51,13 @@ const TestDetailsDoc = ({ match }) => {
   return (
     <>
       <Navbar />
-      <div style={{backgroundColor:'#f5f5f5',margin:'5px', padding:'10px'}}>
+      <div>
         <Link to="/Patient">
-          <FaArrowCircleLeft style={{ fontSize: '40px', marginTop: "13vh" }} />
+          <FaArrowCircleLeft style={{ fontSize: '2em', marginTop: "13vh" }} />
         </Link>
+        <div className="testresult-table">
         <h2> Uploaded Files {id}</h2>
-        <table>
+        <table >
           <thead>
             <tr>
               <th>Sl No</th>
@@ -84,6 +85,7 @@ const TestDetailsDoc = ({ match }) => {
             ))}
           </tbody>
         </table>
+      </div>
       </div>
     </>
   );

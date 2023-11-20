@@ -98,7 +98,7 @@ const Navbar23 = ({ onSearch }) => {
   return (
     <>
       <div className="navbar-doctor" style={{
-              backgroundColor:"#3D50AE"
+              backgroundColor:"#9b8bf4"
               }}>
         <div className="left">
           <div className="logow" >
@@ -172,10 +172,7 @@ const Navbar23 = ({ onSearch }) => {
                   style={{
                     color: "white",
                     background: "#3E6EA8",
-                    // boxShadow: "5px 5px 5px 0px rgba(0, 0, 0, 0.25)",
                     border: "none",
-                    // transition: "transform 0.2s", 
-                    // fontFamily: "Inria Serif",
                       }}
                   // onMouseEnter={(e) => {
                   //   e.currentTarget.style.transform = "scale(1.1)";

@@ -376,19 +376,19 @@ const [sincome, setSpouseIncome] = useState("");
           <div className="top-content" >
           <div className="p-name" >
           <label className="p-details" >Patient Details</label>
-          <label className="label-heading">Name:</label>
+          <label className="s-label-heading">Name:</label>
           <input
-            className="name-input"
+            className="s-name-input"
             type="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
           />
-          <div className="a-2row">
-            <div className="gen-1">
-            <label className="label-heading">Gender:</label>
+          <div className="s-a-2row">
+            <div className="s-gen-1">
+            <label className="s-label-heading">Gender:</label>
           <select
-            className="p-gender"
+            className="s-gender"
             value={gender}
             onChange={(e) => setGender(e.target.value)}
           >
@@ -398,10 +398,10 @@ const [sincome, setSpouseIncome] = useState("");
             <option value="others">Others</option>
           </select>
             </div>
-            <div className="p-age">
-            <label className="label-page">Age:</label>
+            <div className="s-age">
+            <label className="s-label-page">Age:</label>
           <input
-            className="p-age-input"
+            className="s-age-input"
             type="number"
             value={age}
             onChange={(e) => setAge(e.target.value)}
@@ -410,22 +410,23 @@ const [sincome, setSpouseIncome] = useState("");
             </div>
           </div>
           
-          
-          <label className="label-heading">Mobile:</label>
+
+          <label className="label-semail">Email:</label>
           <input
-            className="p-m-no"
-            type="number"
-            value={mobile}
-            onChange={(e) => setMobile(e.target.value)}
+            className="input-semail"
+            type="text"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
-           <div className="a-3row">
-            <div className="gen-2">
+         
+           <div className="s-a-3row">
+            <div className="s-gen-2">
             <label htmlFor="BlooGroup" className="label-heading">
             BloodGroup:
           </label>
           <select
-            className="p-bgroup"
+            className="s-bgroup"
             id="Blood Group"
             value={bloodGroup}
             onChange={(e) => setBloodGroup(e.target.value)}
@@ -441,25 +442,26 @@ const [sincome, setSpouseIncome] = useState("");
             <option value="O-">O-</option>
           </select>
             </div>
-            <div className="p-email">
-            <label className="label-pemail">Email:</label>
+            <div className="s-email">
+            
+          <label className="s-label-heading">Mobile:</label>
           <input
-            className="input-pemail"
-            type="text"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            className="s-m-no"
+            type="number"
+            value={mobile}
+            onChange={(e) => setMobile(e.target.value)}
             required
           />
             </div>
           </div>
 
-          <div className="a-4row">
-            <div className="gen-3">
-            <label htmlFor="Govt id" className="label-heading">
+          <div className="s-a-4row">
+            <div className="s-gen-3">
+            <label htmlFor="Govt id" className="s-label-heading">
             Select Type:
           </label>
           <select
-            className="id-type"
+            className="s-id-type"
             id="Govt Id"
             value={idtype}
             onChange={(e) => setIdType(e.target.value)}
@@ -472,10 +474,10 @@ const [sincome, setSpouseIncome] = useState("");
             <option value="Driving Licence">Driving Licence</option>
           </select>
             </div>
-            <div className="p-idno">
-            <label className="label-pidno">ID No:</label>
+            <div className="s-idno">
+            <label className="label-sidno">ID No:</label>
           <input
-            className="input-pidno"
+            className="input-sidno"
             type="text"
             value={idno}
             onChange={(e) => setIdNo(e.target.value)}
@@ -483,23 +485,23 @@ const [sincome, setSpouseIncome] = useState("");
           />
             </div>
           </div>
-          <div className="a-5row">
-            <div className="gen-4">
-            <label htmlFor="Govt id" className="label-heading">
+          <div className="s-a-5row">
+            <div className="s-gen-4">
+            <label htmlFor="Govt id" className="s-label-heading">
             Occupation:
           </label>
           <input
-            className="p-occupation"
+            className="s-occupation"
             id="Govt Id"
             value={occupation}
             onChange={(e) => setOccupation(e.target.value)}
           >
           </input>
             </div>
-            <div className="p-income">
-            <label className="label-pincome">Income:</label>
+            <div className="s-income">
+            <label className="label-sincome">Income:</label>
           <input
-            className="input-pincome"
+            className="input-sincome"
             type="text"
             value={income}
             onChange={(e) => setIncome(e.target.value)}
@@ -511,7 +513,7 @@ const [sincome, setSpouseIncome] = useState("");
           <label className="label-heading">Address:</label>
           <input
             className="input-address"
-            type="text"
+            type="text-area"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
             required
@@ -520,7 +522,7 @@ const [sincome, setSpouseIncome] = useState("");
             <div className="p-city">
             <label className="label-heading">City:</label>
           <input
-            className="input-city"
+            className="s-age-input"
             type="text"
             value={city}
             onChange={(e) => setCity(e.target.value)}
@@ -530,7 +532,7 @@ const [sincome, setSpouseIncome] = useState("");
             <div className="p-area">
             <label className="label-heading">Area:</label>
           <input
-            className="input-area"
+            className="s-age-input"
             type="text"
             value={area}
             onChange={(e) => setArea(e.target.value)}
@@ -550,7 +552,7 @@ const [sincome, setSpouseIncome] = useState("");
             required
           />
           </div>
-
+        <hr />
 {/* ----------------------------------------------------------- */}
           <div className="s-name" >
           <label className="s-details" >Spouse/ Guardian Details</label>
@@ -588,15 +590,17 @@ const [sincome, setSpouseIncome] = useState("");
             </div>
           </div>
           
-          
-          <label className="s-label-heading">Mobile<span className="mandatory">*</span>:</label>
+          <label className="label-semail">Email:</label>
           <input
-            className="s-m-no"
-            type="number"
-            value={smobile}
-            onChange={(e) => setSpouseMobile(e.target.value)}
+            className="input-semail"
+            type="text"
+            value={semail}
+            onChange={(e) => setSpouseEmail(e.target.value)}
             required
           />
+
+
+         
            <div className="s-a-3row">
             <div className="s-gen-2">
             <label htmlFor="BlooGroup" className="s-label-heading">
@@ -620,12 +624,12 @@ const [sincome, setSpouseIncome] = useState("");
           </select>
             </div>
             <div className="s-email">
-            <label className="label-semail">Email:</label>
+            <label className="s-label-heading">Mobile<span className="mandatory">*</span>:</label>
           <input
-            className="input-semail"
-            type="text"
-            value={semail}
-            onChange={(e) => setSpouseEmail(e.target.value)}
+            className="s-m-no"
+            type="number"
+            value={smobile}
+            onChange={(e) => setSpouseMobile(e.target.value)}
             required
           />
             </div>

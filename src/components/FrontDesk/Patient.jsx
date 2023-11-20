@@ -82,7 +82,7 @@ const Patient = () => {
                 )}
               </td>
               <td>
-                <select onChange={(e) => (window.location.href = e.target.value)}>
+                <select className="SelectPatient" onChange={(e) => (window.location.href = e.target.value)}>
                   <option value="/Patient">select</option>
                   <option value={`/patient/${patient.patientId}/vitals`}>Vitals</option>
                   <option value={`/patient/${patient.patientId}/testresults`}>Test Results</option>

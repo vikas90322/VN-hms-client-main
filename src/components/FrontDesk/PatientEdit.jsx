@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import './PatientEdit.css';
+import './PatientEdit.css'
 import axios from 'axios';
 import PatientNav from './PatientNav';
 
@@ -76,14 +76,13 @@ const PatientEdit = () => {
   return (
     <>
     <div>
-    <PatientNav/>-
-      <div className="popup-overlay-2">
-        <div className="popup-2">
+    <PatientNav/>
+          <div className='popup-overlay-2'>
           <div className="popup-c2">
             <h2>Edit page</h2>
             <div className="columns-2">
               <div className="col-02">
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>Name:</span>
                   <input
                     type="text"
@@ -91,7 +90,7 @@ const PatientEdit = () => {
                     onChange={(e) => setName(e.target.value)}
                   />
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>Gender:</span>
                   <select
                     value={gender}
@@ -102,7 +101,7 @@ const PatientEdit = () => {
                     <option value="others">Others</option>
                   </select>
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>Age:</span>
                   <input
                     type="number"
@@ -112,7 +111,7 @@ const PatientEdit = () => {
                     onChange={(e) => setAge(e.target.value)}
                   />
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>Mobile:</span>
                   <input
                     type="number"
@@ -122,7 +121,7 @@ const PatientEdit = () => {
                     onChange={(e) => setMobile(e.target.value)}
                   />
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>BloodGroup:</span>
                   <select
                     value={bloodGroup}
@@ -138,7 +137,7 @@ const PatientEdit = () => {
                     <option value="O-">O-</option>
                   </select>
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>setExistingId:</span>
                   <input
                     type="text"
@@ -148,7 +147,7 @@ const PatientEdit = () => {
                 </div>
               </div>
               <div className="col-2_1">
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>Email:</span>
                   <input
                     type="text"
@@ -156,7 +155,7 @@ const PatientEdit = () => {
                     onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>Address:</span>
                   <input
                     type="text"
@@ -164,7 +163,7 @@ const PatientEdit = () => {
                     onChange={(e) => setAddress(e.target.value)}
                   />
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>City:</span>
                   <input
                     type="text"
@@ -172,7 +171,7 @@ const PatientEdit = () => {
                     onChange={(e) => setCity(e.target.value)}
                   />
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>Area:</span>
                   <input
                     type="text"
@@ -180,7 +179,7 @@ const PatientEdit = () => {
                     onChange={(e) => setArea(e.target.value)}
                   />
                 </div>
-                <div className="input-group-2">
+                <div className="inputEdit-patient">
                   <span>ReferredBy:</span>
                   <input
                     type="text"
@@ -195,8 +194,7 @@ const PatientEdit = () => {
             </button>
           </div>
         </div>
-      </div>
-    </div>
+        </div>
     </>
   );
 };

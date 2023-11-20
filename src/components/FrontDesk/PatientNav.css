@@ -1,13 +1,20 @@
 .patient-right {
   text-align: right;
-  padding: 7px;
-  background-color:#3E6EAB;
-  /* color: #fff; */
+  padding: 7px 10px;
+  
   
 }
 .popup-overlay-23{
   position: sticky;
 }
+.patientapp{
+  font-size: 0.8em;
+}
+
+.patientapp1{
+  font-size: 1.3em;
+}
+
 
 nav ul {
   list-style: none;
@@ -23,6 +30,8 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #fff; 
+  /* margin-left: 10px; */
+  font-size: 1.5em;
 }
 .close-popup-button{
   background:white ;
