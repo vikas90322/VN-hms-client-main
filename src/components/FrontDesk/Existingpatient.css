@@ -81,9 +81,11 @@
   }
   .existing-labelsss{
     margin-left: 85px;
+    font-size: bold;
   }
   .existing-labelssss{
-    margin-left: 140px;
+    margin-left: 81px;
+    font-weight: bold;
   }
   .ro,.rowsa{
     display: flex;
@@ -101,7 +103,8 @@
   .existing-patient-containers {
       
       padding: 10px;
-      background-color: #f5f5f5;
+     
+      
     }
     .Existing-patientname{
       display: grid;
@@ -127,23 +130,23 @@
       
     }
     .groups{
-      width: 90%;
+      width: 46%;
       margin-left: 10px;
   
     }
     .mobiles{
-      width: 58.5%;
-      margin-left: 140px;
+      width: 59%;
+      margin-left: 80px;
   
     }
     .ages{
       margin-left: 10px;
-      width: 140%;
+      width: 110%;
   
     }
     .genders{
-      width: 66%;
-      margin-left: 85px;
+      width: 58%;
+      margin-left: 80px;
   
     }
     .namess{
@@ -191,6 +194,16 @@
       font-size: 16px;
       margin-top: 16px;
     }
+    .add-button12{
+        background-color: #9b8bf4;
+      color: #fff;
+      border: none;
+      padding: 5px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+     
+      
+    }
     
     .existing-button:hover {
       background-color: #0056b3;
@@ -206,9 +219,11 @@
       .btnbtn-primary{
         margin-left: 550px;
         border: none;
-        background-color: #007bff;
-        border-radius: 10px;
+        background-color: #9b8bf4;
+        border-radius: 3px;
         color: white;
+        width: 80px;
+        padding: 5px;
       }
   
     

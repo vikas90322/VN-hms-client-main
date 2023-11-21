@@ -189,7 +189,7 @@ const PatientEdit = () => {
                 </div>
               </div>
             </div>
-            <button className="but2" onClick={handleUpdate}>
+            <button className="but2" style={{backgroundColor:'#9b8bf4'}} onClick={handleUpdate}>
               Update
             </button>
           </div>

@@ -299,7 +299,12 @@ const ExistingPatient = () => {
   return (
     <>
       <Navbar onSearch={setSearchTerm} onSearchClick={handleSearch} />
+       
+
+
       <div className="existing-patient-containers">
+        <br />
+        <br />
         <h2 className="Existing-patientname">Existing Patient Details</h2>
         <form className="existing-patient-form" onSubmit={handleFormSubmit}>
           <div className="rowsa">

@@ -104,7 +104,7 @@ const Navbar23 = ({ onSearch }) => {
           <div className="logow" >
             <Link to="/Homepage" className="doc-link-nav">
               {" "}
-              <h2>VN Clinic</h2>
+              <h2 style={{fontStyle:'italic',fontSize:'1.3em' ,fontWeight:'bolder'}}>VNC</h2>
               {/* <img src={jms} style={{ width: '50px', height: '35px',color:"white"}} /> */}
 {/* ======= 
               <img src={jms} style={{ width: '100px', height: '50px',color:"white"}} alt="" />

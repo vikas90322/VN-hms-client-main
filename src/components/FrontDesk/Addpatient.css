@@ -2,216 +2,76 @@
   color: red;
 }
 .Addpatient-form {
-  margin-top: 5%;
-  margin-left: 1em;
-  padding: 10px;
- 
+  margin: 6% 3% 0% 3%;
+  
+  background-color: #fff;
 }
 .t-patient {
   text-align: center;
 }
 .top-content{
   display: flex;
+  justify-content: space-around;
+  width: 80%;
+
+  margin: auto;
+  margin-top: 1%;
 }
 
 .p-name{
   display: flex;
   flex-direction: column;
-  width: 37%;
+  width: 45%;
+}
+.p-name label{
+  color: #000;
+  font-weight: bold;
+}
+.p-bgroup{
+  width: 110%;
+  padding: 5px;
+  border:1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 2%;
+}
+
+.id-type{
+  width: 132%;
+  padding: 5px;
+  border:1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 2%;
+}
+.p-gender{
+  width: 140%;
+  padding: 5px;
+  border:1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 2%;
 }
 .p-details{
   font-size: 25px;
   font-weight: bold;
   color: #3E6EA8;
 }
-.label-heading{
-  font-weight: bold;
-  margin-top: 1%;
+.p-occupation{
+  width: 95%;
 }
-.name-input{
-  width: 110%;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.Addp-left-row2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
 }
-
-
-
- .a-2row{
-  display: flex;
-  flex-direction: row; 
-  margin-top: 1%;
- }
- .gen-1{
-  display: flex;
-  flex-direction: column;
- }
- .p-gender{
-  width: 280%;
-  height: 35px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  /* font-size: 13px; */
- }
- .p-age{
-  flex-direction: column;
-  display: flex;
-  margin-left: 41%;
- }
- .p-age-input{
-  height: 32px;
-  width: 175%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .label-page{
-  font-weight: bold;
- }
- .p-m-no{
-  width: 109.8%;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
-
- .a-3row{
-  display: flex;
-  flex-direction: row; 
-  margin-top: 1%;
- }
- .gen-2{
-  display: flex;
-  flex-direction: column;
- }
- .p-bgroup{
-  width: 219%;
-  height: 35px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .p-email{
-  display: flex;
-  flex-direction: column;
-  margin-left: 36%;
- }
- .label-pemail{
-  font-weight: bold;
-
- }
- .input-pemail{
-  height: 31px;
-  width: 173%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .a-4row{
-  display: flex;
-  flex-direction: row; 
-  margin-top: 1%;
- }
- .gen-3{
-  display: flex;
-  flex-direction: column;
- }
- .id-type{
-  width: 267%;
-  height: 35px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .p-idno{
-  display: flex;
-  flex-direction: column;
-  margin-left: 40.2%;
- }
- .label-pidno{
-  font-weight: bold;
-
- }
- .input-pidno{
-  height: 32px;
-  width: 174%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
-
- .a-5row{
-  display: flex;
-  flex-direction: row; 
-  margin-top: 1%;
- }
- .gen-4{
-  display: flex;
-  flex-direction: column;
-  
- }
- .p-occupation{
-  width: 193.2%;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .p-income{
-  display: flex;
-  flex-direction: column;
-  margin-left: 33%;
- }
- .label-pincome{
-  font-weight: bold;
-
- }
- .input-pincome{
-  height: 30.5px;
-  width: 174%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .input-address{
-  width: 595px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .rows-ca{
-  display: flex;
- }
- .p-city{
-  display: flex;
-  flex-direction: column;
- }
- .input-city{
-  width: 270px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .p-area{
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
-  width: 270px;
- }
- .input-area{
-  height: 30.5px;
-  width: 270px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .input-refby{
-  width: 595px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
-
-/* -------------------------------------------- */
+/*-------------------------------------------- */
 
 
 .s-name{
   display: flex;
   flex-direction: column;
-  /* width: 50%; */
-  margin-left: 13%;
+  width: 45%;
+ 
 }
 .s-details{
   font-size: 25px;
@@ -220,143 +80,16 @@
 }
 .s-label-heading{
   font-weight: bold;
-  margin-top: 1%;
+ 
 }
-.s-name-input{
-  width: 600px;
-  height: 29px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.s-name label{
+  color: #000;
+  font-weight: bold;
 }
 
- .s-a-2row{
-  display: flex;
-  flex-direction: row; 
- }
- .s-gen-1{
-  display: flex;
-  flex-direction: column;
- }
- .s-gender{
-  width: 300px;
-  height: 36px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  /* font-size: 13px; */
- }
- .s-age{
-  flex-direction: column;
-  display: flex;
-  margin-left: 30px;   
- }
- .s-age-input{
-  height: 34px;
-  width: 270px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .s-label-page{
-  font-weight: bold;
- }
- .s-m-no{
-  width: 270px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
-
- .s-a-3row{
-  display: flex;
-  flex-direction: row; 
- }
- .s-gen-2{
-  display: flex;
-  flex-direction: column;
- }
- .s-bgroup{
-  width: 300px;
-  height: 35px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .s-email{
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
- }
- .label-semail{
-  font-weight: bold;
-
- }
- .input-semail{
-  height: 31px;
-  width: 600px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .s-a-4row{
-  display: flex;
-  flex-direction: row; 
-  margin-top: 1%;
- }
- .s-gen-3{
-  display: flex;
-  flex-direction: column;
- }
- .s-id-type{
-  width: 300px;
-  height: 35px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .s-idno{
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
- }
- .label-sidno{
-  font-weight: bold;
-
- }
- .input-sidno{
-  height: 32px;
-  width: 270px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
 
 
 
- .s-a-5row{
-  display: flex;
-  flex-direction: row; 
-  margin-top: 1%;
- }
- .s-gen-4{
-  display: flex;
-  flex-direction: column;
- }
- .s-occupation{
-  width: 293px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
- .s-income{
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
- }
- .label-sincome{
-  font-weight: bold;
-
- }
- .input-sincome{
-  height: 32px;
-  width: 270px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
- }
 
 
 
@@ -375,7 +108,7 @@
       border-bottom: none;
   }
   .input-table-content th{
-      background-color: #3E6EA8;
+      background-color: #9b8bf4;
       color: white;
   }
   .input-table-content th,
@@ -411,7 +144,7 @@
       border-radius: 4px;
     }
     .add-button1234{
-      background-color: #3E6EA8;
+      background-color: #9b8bf4;
       color: white;
       border-radius: 4px;
       border: none;
@@ -420,7 +153,7 @@
       margin-left: 35px;
       }
       .pay-button{
-          background-color: #3E6EA8;
+          background-color: #9b8bf4;
           color: white;
           border-radius: 4px;
           border: none;
@@ -533,7 +266,7 @@
             /* overflow-y: auto; */
             }
             .create-bill-button{
-            background-color:#3E6EA8;
+            background-color:#9b8bf4;
             color: white;
             border: none;
             border-radius: 3px;
@@ -544,7 +277,7 @@
             
             }
             .back-button{
-            background-color:#3E6EA8;
+            background-color:#9b8bf4;
             color: white;
             border: none;
             border-radius: 3px;
@@ -588,7 +321,7 @@
             }
           
             .submittts{
-              background-color: #3E6EA8;
+              background-color: #9b8bf4;
               border: none;
               border-radius: 5px;
               margin-left: 5%;
@@ -599,7 +332,7 @@
               font-size: 15px;
             }
             .print-bill-button{
-              background-color: #3E6EA8;
+              background-color: #9b8bf4;
               border: none;
               border-radius: 5px;
               padding: 7px 21px;

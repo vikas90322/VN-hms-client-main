@@ -375,20 +375,26 @@ const [sincome, setSpouseIncome] = useState("");
         
           <div className="top-content" >
           <div className="p-name" >
-          <label className="p-details" >Patient Details</label>
-          <label className="s-label-heading">Name:</label>
+          <h5 className="s-details" >Patient Details</h5>
+
+         <div>
+           
+         <label className="label-heading">Name<span className="mandatory">*</span>:</label>
           <input
-            className="s-name-input"
+            className="name-input"
             type="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
           />
-          <div className="s-a-2row">
-            <div className="s-gen-1">
-            <label className="s-label-heading">Gender:</label>
+         </div>
+         
+           
+          <div className="Addp-left-row2">
+          <div>
+           <label className="label-heading">Gender<span className="mandatory">*</span>:</label>
           <select
-            className="s-gender"
+            className="p-gender"
             value={gender}
             onChange={(e) => setGender(e.target.value)}
           >
@@ -397,36 +403,31 @@ const [sincome, setSpouseIncome] = useState("");
             <option value="female">Female</option>
             <option value="others">Others</option>
           </select>
-            </div>
-            <div className="s-age">
-            <label className="s-label-page">Age:</label>
+            
+           </div>
+          
+            <div>
+            <label className="label-page">Age<span className="mandatory">*</span>:</label>
           <input
-            className="s-age-input"
+            className="p-age-input"
             type="number"
             value={age}
             onChange={(e) => setAge(e.target.value)}
             required
           />
             </div>
+          
+          
           </div>
           
+          <div className="Addp-left-row2">
 
-          <label className="label-semail">Email:</label>
-          <input
-            className="input-semail"
-            type="text"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-         
-           <div className="s-a-3row">
-            <div className="s-gen-2">
-            <label htmlFor="BlooGroup" className="label-heading">
+          <div >
+           <label htmlFor="BlooGroup" className="label-heading">
             BloodGroup:
           </label>
           <select
-            className="s-bgroup"
+            className="p-bgroup"
             id="Blood Group"
             value={bloodGroup}
             onChange={(e) => setBloodGroup(e.target.value)}
@@ -441,27 +442,45 @@ const [sincome, setSpouseIncome] = useState("");
             <option value="O+">O+</option>
             <option value="O-">O-</option>
           </select>
-            </div>
-            <div className="s-email">
+           </div>
             
-          <label className="s-label-heading">Mobile:</label>
+          <div>
+          <label className="label-heading">Mobile<span className="mandatory">*</span>:</label>
           <input
-            className="s-m-no"
+            className="p-m-no"
             type="number"
             value={mobile}
             onChange={(e) => setMobile(e.target.value)}
             required
           />
-            </div>
           </div>
 
-          <div className="s-a-4row">
-            <div className="s-gen-3">
-            <label htmlFor="Govt id" className="s-label-heading">
-            Select Type:
+
+           
+          
+           
+          </div>
+
+           <div>
+           <label className="label-pemail">Email<span className="mandatory">*</span>:</label>
+          <input
+            className="input-pemail"
+            type="text"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          
+           </div>
+
+          <div className="Addp-left-row2" >
+
+            <div >
+            <label htmlFor="Govt id" className="label-heading">
+            Select ID <span className="mandatory">*</span>:
           </label>
           <select
-            className="s-id-type"
+            className="id-type"
             id="Govt Id"
             value={idtype}
             onChange={(e) => setIdType(e.target.value)}
@@ -474,34 +493,39 @@ const [sincome, setSpouseIncome] = useState("");
             <option value="Driving Licence">Driving Licence</option>
           </select>
             </div>
-            <div className="s-idno">
-            <label className="label-sidno">ID No:</label>
+
+            <div >
+            <label className="label-pidno">ID No<span className="mandatory">*</span>:</label>
           <input
-            className="input-sidno"
+            className="input-pidno"
             type="text"
             value={idno}
             onChange={(e) => setIdNo(e.target.value)}
             required
           />
             </div>
+
           </div>
-          <div className="s-a-5row">
-            <div className="s-gen-4">
-            <label htmlFor="Govt id" className="s-label-heading">
+
+          <div  className="Addp-left-row2">
+            <div >
+            <label htmlFor="Govt id" className="label-heading">
             Occupation:
           </label>
           <input
-            className="s-occupation"
+            className="p-occupation"
             id="Govt Id"
             value={occupation}
             onChange={(e) => setOccupation(e.target.value)}
           >
           </input>
             </div>
-            <div className="s-income">
-            <label className="label-sincome">Income:</label>
+
+
+            <div >
+            <label className="label-pincome">Income:</label>
           <input
-            className="input-sincome"
+            className="input-pincome"
             type="text"
             value={income}
             onChange={(e) => setIncome(e.target.value)}
@@ -513,32 +537,36 @@ const [sincome, setSpouseIncome] = useState("");
           <label className="label-heading">Address:</label>
           <input
             className="input-address"
-            type="text-area"
+            type="text"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
             required
           />
-          <div className="rows-ca">
-            <div className="p-city">
+
+
+          <div className="Addp-left-row2" >
+            <div >
             <label className="label-heading">City:</label>
           <input
-            className="s-age-input"
+            className="input-city"
             type="text"
             value={city}
             onChange={(e) => setCity(e.target.value)}
             required
           />
             </div>
-            <div className="p-area">
+
+            <div >
             <label className="label-heading">Area:</label>
-          <input
-            className="s-age-input"
+          <textarea
+            className="input-area"
             type="text"
             value={area}
             onChange={(e) => setArea(e.target.value)}
             required
           />
             </div>
+
           </div>
           
          
@@ -551,11 +579,13 @@ const [sincome, setSpouseIncome] = useState("");
             onChange={(e) => setReferredBy(e.target.value)}
             required
           />
+
+
           </div>
-        <hr />
+
 {/* ----------------------------------------------------------- */}
           <div className="s-name" >
-          <label className="s-details" >Spouse/ Guardian Details</label>
+          <h5 className="s-details" >Spouse/ Guardian Details</h5>
           <label className="s-label-heading">Name<span className="mandatory">*</span>:</label>
           <input
             className="s-name-input"
@@ -564,11 +594,11 @@ const [sincome, setSpouseIncome] = useState("");
             onChange={(e) => setSpouseName(e.target.value)}
             required
           />
-          <div className="s-a-2row">
+          <div className="Addp-left-row2">
             <div className="s-gen-1">
             <label className="s-label-heading">Gender<span className="mandatory">*</span>:</label>
           <select
-            className="s-gender"
+            className="p-gender"
             value={sgender}
             onChange={(e) => setSpouseGender(e.target.value)}
           >
@@ -590,24 +620,16 @@ const [sincome, setSpouseIncome] = useState("");
             </div>
           </div>
           
-          <label className="label-semail">Email:</label>
-          <input
-            className="input-semail"
-            type="text"
-            value={semail}
-            onChange={(e) => setSpouseEmail(e.target.value)}
-            required
-          />
-
-
+          
          
-           <div className="s-a-3row">
+
+           <div className="Addp-left-row2">
             <div className="s-gen-2">
             <label htmlFor="BlooGroup" className="s-label-heading">
             BloodGroup:
           </label>
           <select
-            className="s-bgroup"
+            className="p-bgroup"
             id="Blood Group"
             value={sbloodGroup}
             onChange={(e) => setSpouseBloodGroup(e.target.value)}
@@ -623,8 +645,8 @@ const [sincome, setSpouseIncome] = useState("");
             <option value="O-">O-</option>
           </select>
             </div>
-            <div className="s-email">
-            <label className="s-label-heading">Mobile<span className="mandatory">*</span>:</label>
+           <div>
+           <label className="s-label-heading">Mobile<span className="mandatory">*</span>:</label>
           <input
             className="s-m-no"
             type="number"
@@ -632,16 +654,30 @@ const [sincome, setSpouseIncome] = useState("");
             onChange={(e) => setSpouseMobile(e.target.value)}
             required
           />
-            </div>
+           </div>
+
+
+
           </div>
 
-          <div className="s-a-4row">
+          <div className="s-email">
+            <label className="label-semail">Email:</label>
+          <input
+            className="input-semail"
+            type="text"
+            value={semail}
+            onChange={(e) => setSpouseEmail(e.target.value)}
+            required
+          />
+            </div>
+
+          <div className="Addp-left-row2">
             <div className="s-gen-3">
             <label htmlFor="Govt id" className="s-label-heading">
             Select ID<span className="mandatory">*</span>:
           </label>
           <select
-            className="s-id-type"
+            className="id-type"
             id="Govt Id"
             value={sidtype}
             onChange={(e) => setSpouseIdType(e.target.value)}
@@ -665,13 +701,13 @@ const [sincome, setSpouseIncome] = useState("");
           />
             </div>
           </div>
-          <div className="s-a-5row">
+          <div className="Addp-left-row2">
             <div className="s-gen-4">
             <label htmlFor="Govt id" className="s-label-heading">
             Occupation:
           </label>
           <input
-            className="s-occupation"
+            className="p-occupation"
             id="Govt Id"
             value={soccupation}
             onChange={(e) => setSpouseOccupation(e.target.value)}
